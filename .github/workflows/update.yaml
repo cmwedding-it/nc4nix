@@ -1,0 +1,33 @@
+name: "Update packages"
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 10 * * 0"
+
+jobs:
+  update:
+    runs-on: "ubuntu-latest"
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Go 1.20
+      uses: actions/setup-go@v5
+      with:
+        go-version: "1.20"
+
+    - name: Run updater
+      run: go run main.go
+      env:
+        NEXTCLOUD_VERSIONS: "30,31"
+
+    - name: Commit and push
+      uses: actions-js/push@v1.5
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+
