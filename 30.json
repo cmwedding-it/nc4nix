@@ -280,9 +280,9 @@
     ]
   },
   "collectives": {
-    "hash": "sha256-jE9vDQkC0O/ekPvUyDeWoww/jj7X6e4d2xAHM04bCYY=",
-    "url": "https://github.com/nextcloud/collectives/releases/download/v2.16.3/collectives-2.16.3.tar.gz",
-    "version": "2.16.3",
+    "hash": "sha256-FSn1sghVwiCwgYctFhlTzFhb5OKVb4P92CE7MxnX+Tg=",
+    "url": "https://github.com/nextcloud/collectives/releases/download/v2.17.1/collectives-2.17.1.tar.gz",
+    "version": "2.17.1",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Team](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Teams«** and **»Collectives«** apps and enable them.",
     "homepage": "https://github.com/nextcloud/collectives",
     "licenses": [
@@ -330,8 +330,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -690,10 +690,10 @@
     ]
   },
   "files_external_ethswarm": {
-    "hash": "sha256-deHJdX1IJVSdIHc7HUO8egs8m3RwJjmDLnysdLafOes=",
-    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.5.14/files_external_ethswarm.tar.gz",
-    "version": "0.5.14",
-    "description": "*Bring decentralized, sovereign cloud storage to Nextcloud with the Hejbit Swarm plugin!*\n\nThis plugin integrates [Swarm](https://www.ethswarm.org/) (a decentralized, blockchain-connected file storage system) directly into your [Nextcloud ](https://nextcloud.com/)instance.\n\n## **Table of Contents**\n\n- [Dependencies](https://apps.nextcloud.com/apps/files_external_ethswarm#dependencies)\n- [Setup and Installation](https://apps.nextcloud.com/apps/files_external_ethswarm#setup-and-installation)\n- [Usage](https://apps.nextcloud.com/apps/files_external_ethswarm#usage)\n  - [Settings](https://apps.nextcloud.com/apps/files_external_ethswarm#settings)\n  - [Using Hejbit Swarm](https://apps.nextcloud.com/apps/files_external_ethswarm#using-hejbit-swarm)\n  - [Additional Integration with Moodle](https://apps.nextcloud.com/apps/files_external_ethswarm#additional-integration-with-moodle)\n- [Get Hejbit License](https://apps.nextcloud.com/apps/files_external_ethswarm#get-hejbit-license)\n- [License](https://apps.nextcloud.com/apps/files_external_ethswarm#license)\n\n[](#dependencies)## **Dependencies**\n\nBefore using the plugin, ensure you have the following:\n\n- An active Nextcloud instance (version 29,30 or 31)\n- A valid license and URL to activate the service\n  - [Request Your Free Nextcloud Swarm Plugin Trial License](https://metaprovide.org/hejbit/start)\n\n[](#setup-and-installation)## **Setup and Installation**\n\nFollow these steps to configure Hejbit Swarm in Nextcloud:\n\n1. Ensure the **External Storage** plugin is enabled.\n2. Install the **External Storage: Hejbit Swarm** app from the Nextcloud App Store.\n3. Navigate to External Storage Administration: Profile menu -> Settings -> External Storage.\n4. Create a new external storage with a folder name of your choice and select *'Swarm'* as the storage type. Then, enter the license key and URL configuration.\n\n[](#usage)## **Usage**\n\nOnce installed, Hejbit integrates Swarm directly with Nextcloud’s \"Files\" section, allowing seamless file operations:\n\n- **Upload:** Transfer files to decentralized storage.\n- **Download:** Retrieve and view files from decentralized storage.\n- **Copy/Move:** Shift files between any external storage and decentralized storage\n\n[](#settings)### **Settings**\n\nUsers with administrative credentials can configure the plugin through the standard External Storage settings. Here, you can input your license key and URL for Hejbit.\n\n[](#using-hejbit-swarm)### **Using Hejbit Swarm**\n\nOnce setup and configured, the Decentralized Storage is ready to use.\n\n- Access the Decentralized Storage folder under \"All Files\" or via the \"Files\" menu under \"External Storage.\"\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the decentralized storage. Choose the decentralized storage folder as the target Folder.\n- Right-click on a Swarm file to copy the Swarm reference (hash) to your clipboard. Alternatively, click the three dots in the Actions menu and select 'Copy Swarm Reference.' The Swarm reference is the unique address of the file on the Swarm network.\n\n[](#additional-integration-with-moodle)### Additional Integration with Moodle\n\nYou can also enhance your experience by integrating the Hejbit Swarm plugin with the **Moodle Nextcloud plugin**. This integration allows users to access decentralized storage directly within the Moodle environment, providing a seamless experience for educational content management. For more information on how to set up this integration, visit the [Moodle Nextcloud repository documentation](https://docs.moodle.org/405/en/Nextcloud_repository).\n\nFor detailed guidance on using the integrated features, please refer to the [Metaprovide Learning Platform](https://learning.metaprovide.org/login/index.php).\n\n[](#get-hejbit-license)## **Get Hejbit Licence**\n\nExperience the future of data storage with 5GB of free, decentralized storage on the Ethereum Swarm network. Our plugin seamlessly integrates with your existing Nextcloud interface, providing true data sovereignty without the complexity.\n\n[Get your free licence here!](https://metaprovide.org/hejbit/start)",
+    "hash": "sha256-rjqJ90u2Yi/300TAYnQs7zw1t3RcKib74iNeRCvWcSE=",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.6.0/files_external_ethswarm.tar.gz",
+    "version": "0.6.0",
+    "description": "*Bring decentralized, sovereign cloud storage to Nextcloud with the Hejbit Swarm plugin!*\n\nThis plugin integrates [Swarm](https://www.ethswarm.org/) (a decentralized, blockchain-connected file storage system) directly into your [Nextcloud ](https://nextcloud.com/)instance.\n\n## **Table of Contents**\n\n- [Dependencies](https://apps.nextcloud.com/apps/files_external_ethswarm#dependencies)\n- [Setup and Installation](https://apps.nextcloud.com/apps/files_external_ethswarm#setup-and-installation)\n- [Usage](https://apps.nextcloud.com/apps/files_external_ethswarm#usage)\n  - [Settings](https://apps.nextcloud.com/apps/files_external_ethswarm#settings)\n  - [Using Hejbit Swarm](https://apps.nextcloud.com/apps/files_external_ethswarm#using-hejbit-swarm)\n  - [Additional Integration with Moodle](https://apps.nextcloud.com/apps/files_external_ethswarm#additional-integration-with-moodle)\n- [Get Hejbit License](https://apps.nextcloud.com/apps/files_external_ethswarm#get-hejbit-license)\n- [License](https://apps.nextcloud.com/apps/files_external_ethswarm#license)\n  - [Using Hejbit Swarm](https://apps.nextcloud.com/apps/files_external_ethswarm#using-hejbit-swarm)\n  - [Additional Integration with Moodle](https://apps.nextcloud.com/apps/files_external_ethswarm#additional-integration-with-moodle)\n- [Get Hejbit License](https://apps.nextcloud.com/apps/files_external_ethswarm#get-hejbit-license)\n- [License](https://apps.nextcloud.com/apps/files_external_ethswarm#license)\n\n[](#dependencies)## **Dependencies**\n[](#dependencies)## **Dependencies**\n\nBefore using the plugin, ensure you have the following:\n\n- An active Nextcloud instance (version 29,30 or 31)\n- A valid license and URL to activate the service\n  - [Request Your Free Nextcloud Swarm Plugin Trial License](https://metaprovide.org/hejbit/start)\n  - [Request Your Free Nextcloud Swarm Plugin Trial License](https://metaprovide.org/hejbit/start)\n\n[](#setup-and-installation)## **Setup and Installation**\n[](#setup-and-installation)## **Setup and Installation**\n\nFollow these steps to configure Hejbit Swarm in Nextcloud:\n\n1. Ensure the **External Storage** plugin is enabled.\n2. Install the **External Storage: Hejbit Swarm** app from the Nextcloud App Store.\n3. Navigate to External Storage Administration: Profile menu -> Settings -> External Storage.\n4. Create a new external storage with a folder name of your choice and select *'Swarm'* as the storage type. Then, enter the license key and URL configuration.\n\n[](#usage)## **Usage**\n[](#usage)## **Usage**\n\nOnce installed, Hejbit integrates Swarm directly with Nextcloud’s \"Files\" section, allowing seamless file operations:\n\n- **Upload:** Transfer files to decentralized storage.\n- **Download:** Retrieve and view files from decentralized storage.\n- **Copy/Move:** Shift files between any external storage and decentralized storage\n\n[](#settings)### **Settings**\n[](#settings)### **Settings**\n\nUsers with administrative credentials can configure the plugin through the standard External Storage settings. Here, you can input your license key and URL for Hejbit.\n\n[](#using-hejbit-swarm)### **Using Hejbit Swarm**\n[](#using-hejbit-swarm)### **Using Hejbit Swarm**\n\nOnce setup and configured, the Decentralized Storage is ready to use.\n\n- Access the Decentralized Storage folder under \"All Files\" or via the \"Files\" menu under \"External Storage.\"\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the decentralized storage. Choose the decentralized storage folder as the target Folder.\n- Right-click on a Swarm file to copy the Swarm reference (hash) to your clipboard. Alternatively, click the three dots in the Actions menu and select 'Copy Swarm Reference.' The Swarm reference is the unique address of the file on the Swarm network.\n\n[](#additional-integration-with-moodle)### Additional Integration with Moodle\n[](#additional-integration-with-moodle)### Additional Integration with Moodle\n\nYou can also enhance your experience by integrating the Hejbit Swarm plugin with the **Moodle Nextcloud plugin**. This integration allows users to access decentralized storage directly within the Moodle environment, providing a seamless experience for educational content management. For more information on how to set up this integration, visit the [Moodle Nextcloud repository documentation](https://docs.moodle.org/405/en/Nextcloud_repository).\n\nFor detailed guidance on using the integrated features, please refer to the [Metaprovide Learning Platform](https://learning.metaprovide.org/login/index.php).\n\n[](#get-hejbit-license)## **Get Hejbit Licence**\n[](#get-hejbit-license)## **Get Hejbit Licence**\n\nExperience the future of data storage with 5GB of free, decentralized storage on the Ethereum Swarm network. Our plugin seamlessly integrates with your existing Nextcloud interface, providing true data sovereignty without the complexity.\n\n[Get your free licence here!](https://metaprovide.org/hejbit/start)",
     "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
       "agpl"
@@ -1520,10 +1520,10 @@
     ]
   },
   "logcleaner": {
-    "hash": "sha256-poz0y4Qjv0scPF0Ukx5hFTFw8ZmnBKSTVQhDrp0j4+8=",
-    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.0.15/logcleaner_1.0.15.tar.gz",
-    "version": "1.0.15",
-    "description": "**Administrator Tool for cleaning up the logfile**\n\n- ✅ Only accessable for Administrators.\n- ✅ Error levels with different colors.\n- ✅ Number of displayed log entries can be set.\n- ✅ After correcting a log entry it can be deleted from the log file.\n- ✅ One click deletion of all dublicates within the logfile.",
+    "hash": "sha256-Sf7EavVzVImBjkLkRQK5n3pinwSU+ErFgtjXw+6ND0g=",
+    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.1.1/logcleaner_1.1.1.tar.gz",
+    "version": "1.1.1",
+    "description": "**Administration tool for cleaning up the log file**\n\n- ✅ Only accessible for administration.\n- ✅ Error levels with different colors.\n- ✅ Number of displayed log entries can be set.\n- ✅ After correcting a log entry it can be deleted from the log file.\n- ✅ One click deletion of all duplicates within the log file.\n- ✅ Empty the log file without using shell commands.",
     "homepage": "https://github.com/zomtec2311/logcleaner",
     "licenses": [
       "agpl"
@@ -1590,9 +1590,9 @@
     ]
   },
   "memegen": {
-    "hash": "sha256-2feEvfi/Mmuv56c0mENh5KeHV3G233dt5l2bAOoCxG4=",
-    "url": "https://github.com/nextcloud-releases/memegen/releases/download/v1.1.2/memegen-v1.1.2.tar.gz",
-    "version": "1.1.2",
+    "hash": "sha256-k1UilGhfB5dioRzWdNIeEUcdVM+Dg/pGl3gWyWkntW0=",
+    "url": "https://github.com/nextcloud-releases/memegen/releases/download/v1.1.3/memegen-v1.1.3.tar.gz",
+    "version": "1.1.3",
     "description": "A tool for picking a meme template and filling in custom text captions using the Smart Picker functionality.",
     "homepage": "https://github.com/nextcloud/memegen",
     "licenses": [
@@ -2590,9 +2590,9 @@
     ]
   },
   "thesearchpage": {
-    "hash": "sha256-m1droAFp+fZEw1Eevj0a2kp03q2unDg4MRKNz5keHuM=",
-    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v1.2.10/thesearchpage.tar.gz",
-    "version": "1.2.10",
+    "hash": "sha256-asF1wcn7XVyRZH1Fgw29olrpQlp11+/1/2CD7glWOqU=",
+    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v1.2.11/thesearchpage.tar.gz",
+    "version": "1.2.11",
     "description": "🔎 A Search Page for your Nextcloud instance\n\n- [Changelog](https://raw.githubusercontent.com/callmemagnus/nextcloud-searchpage/main/CHANGELOG.md)\n- [Help translate this application](https://app.transifex.com/nextcloud/nextcloud/thesearchpage/)\n\nIt works like the existing search widget, uses the same sources to query BUT\ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on\nyour Nextcloud instance. Every Nextcloud application can become a search\nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications:\n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\n\nDon't hesitate to leave a comment here or a rating!",
     "homepage": "https://github.com/callmemagnus/nextcloud-searchpage",
     "licenses": [
