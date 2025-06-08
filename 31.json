@@ -30,9 +30,9 @@
     ]
   },
   "announcementcenter": {
-    "hash": "sha256-xGwha0EJtI1vhYH/I3SN2EXc0SqAnAPTs4v50qEC03A=",
-    "url": "https://github.com/nextcloud-releases/announcementcenter/releases/download/v7.1.2/announcementcenter-v7.1.2.tar.gz",
-    "version": "7.1.2",
+    "hash": "sha256-5KbKBV7LKGjTjrp8W/SImU2ozWDeHrSMZespIi0gU5s=",
+    "url": "https://github.com/nextcloud-releases/announcementcenter/releases/download/v7.1.3/announcementcenter-v7.1.3.tar.gz",
+    "version": "7.1.3",
     "description": "Announce your maintenance window 🎛️, introduce a new colleague 👤 or make sure everyone knows about the big event next month 📅\n\n🖌️ Markdown support\n\n📑 Comments including @-mentions\n\n👪 Group permissions\n\n⭕ Dashboard integration\n\n⚡ Activities integration\n\n🔔 Notifications integration",
     "homepage": "https://github.com/nextcloud/announcementcenter",
     "licenses": [
@@ -50,9 +50,9 @@
     ]
   },
   "appointments": {
-    "hash": "sha256-axgZXbNEJO302+qwL4NxDRmBMlHFZ095MWiTXESLRdU=",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/refs/tags/v2.4.4/build/artifacts/appstore/appointments.tar.gz",
-    "version": "2.4.4",
+    "hash": "sha256-EE0eaCVa+ObuJ+fmNm4MnkfubbfYeKIwhUpMZt4sQfM=",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/refs/tags/v2.4.5/build/artifacts/appstore/appointments.tar.gz",
+    "version": "2.4.5",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -119,6 +119,16 @@
       "agpl"
     ]
   },
+  "bbb": {
+    "hash": "sha256-URhokLTCbdjHYcd/xQ4LsZs9yKnaVSRZ7pg5pZI10/U=",
+    "url": "https://github.com/littleredbutton/cloud_bbb/releases/download/v2.8.0/bbb-v2.8.0.tar.gz",
+    "version": "2.8.0",
+    "description": "This app allows to create meetings with an external installation of [BigBlueButton](https://bigbluebutton.org).\n\n* **Room setup** Create multiple room configurations with name, welcome message …\n* **Share guest link** Share the room link with all your guests\n* **Share moderator link** Invite moderators to the room\n* **Share rooms** Share rooms with members, groups or circles\n* **Custom presentation** Start a room with a selected presentation from your file browser\n* **Manage recordings** View, share and delete recordings for your rooms\n* **Restrictions** Restrict room creation to certain groups\n* **Activities** Get an overview of your room activities\n\nQuick start guide and further information in our [readme](https://github.com/littleredbutton/cloud_bbb).\nDo you like this application? Give something back to the open source community and checkout our\n[ways to contribute](https://github.com/littleredbutton/cloud_bbb/blob/master/.github/contributing.md).\n\nContributors are welcome! If you have time it would be awesome if you could help to enhance this application.\n\n*This app integrates BigBlueButton and is not endorsed or certified by BigBlueButton Inc. BigBlueButton and the BigBlueButton Logo are trademarks of BigBlueButton Inc.*",
+    "homepage": "https://github.com/littleredbutton/cloud_bbb/",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "bookmarks": {
     "hash": "sha256-oXpTsmjD1zGjNoPoNVIVSVO4nHAoWy0YW3IT797XrRM=",
     "url": "https://github.com/nextcloud/bookmarks/releases/download/v15.1.0/bookmarks-15.1.0.tar.gz",
@@ -140,11 +150,21 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-vOqceL71gB/gtAI5G7FGSrfIr63rgeA8maMDtqzmNQ8=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.3.0/calendar-v5.3.0.tar.gz",
-    "version": "5.3.0",
+    "hash": "sha256-KB65KF4RakVBX1vhZferDJCTMpqbFBvWn6W0Wi8QJfc=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.3.1/calendar-v5.3.1.tar.gz",
+    "version": "5.3.1",
     "description": "A Calendar app for Nextcloud. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Like Contacts, Talk, Tasks, Deck and Circles\n* 🌐 **WebCal Support!** Want to see your favorite team's matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 **Search!** Find your events at ease\n* ☑️ **Tasks!** See tasks or Deck cards with a due date directly in the calendar\n* 🔈 **Talk rooms!** Create an associated Talk room when booking a meeting with just one click\n* 📆 **Appointment booking** Send people a link so they can book an appointment with you [using this app](https://apps.nextcloud.com/apps/appointments)\n* 📎 **Attachments!** Add, upload and view event attachments\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "calendar_news": {
+    "hash": "sha256-q9ehLXalfKaEpcNdax/bZDGVWNcdLNp+tMv2ByuuWgE=",
+    "url": "https://github.com/mziech/nextcloud-calendar-news/releases/download/v1.1.16/calendar_news.tar.gz",
+    "version": "1.1.16",
+    "description": "This generates a scheduled e-mail newsletter based on calendar events.\n\nThe administrator can freely configure the sections of the newsletter.\nThe following section types are supported:\n* Static headline\n* Static text paragraph\n* List of calendar entries of calendars accessible to the administrator\n\nFor each calendar, the relative timespan can be configured and the list entries can be formatted using a simple placeholder-language.",
+    "homepage": "https://github.com/mziech/nextcloud-calendar-news",
     "licenses": [
       "agpl"
     ]
@@ -175,6 +195,16 @@
     "version": "0.8.7",
     "description": "This app will make previews of &quot;RAW&quot; files from cameras in Nextcloud.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "cas": {
+    "hash": "sha256-BSXsnBrS7LfgxZpjzeaCI7KNxtDNk4kmm2f6+SEibiE=",
+    "url": "https://github.com/mziech/nextcloud-cas/releases/download/v0.2.15/cas.tar.gz",
+    "version": "0.2.15",
+    "description": "This is an very basic and experimental implementation of the CAS server protocol for Nextcloud.\nIt is not another user backend for Nextcloud, instead it allows you to authenticate 3rd-party or\ncustom web applications against the Nextcloud user database.\n        \nIf you are creating a custom application and you want to integrate it seemlessly with Nextcloud login,\nyou can either follow the [CAS protocol specification](https://apereo.github.io/cas/4.2.x/protocol/CAS-Protocol-Specification.html)\nor better use one of the many available CAS client libraries.",
+    "homepage": "https://github.com/mziech/nextcloud-cas",
     "licenses": [
       "agpl"
     ]
@@ -219,6 +249,16 @@
       "agpl"
     ]
   },
+  "cidgravity": {
+    "hash": "sha256-7NEbWLfz4gd+9BDx+HfoMxUt5D73L+vJIzKjaG1vx+0=",
+    "url": "https://github.com/CIDgravity/nextcloud-cidgravity-app/releases/download/v2.0.1/cidgravity.tar.gz",
+    "version": "2.0.0",
+    "description": "# CIDgravity for Nextcloud\n**Decentralized Storage Integration via IPFS & Filecoin**\n\nCIDgravity integrates IPFS and Filecoin as a decentralized backend for your Nextcloud instance. It enables seamless storage and retrieval of files using content addressing (via IPFS CIDs), while leveraging Filecoin for persistent and verifiable storage.\n\nWith CIDgravity, users can continue working within the familiar Nextcloud interface, while benefiting from the resilience, **verifiability**, and **immutability** provided by Web3 storage protocols like IPFS.\n\n## Get Started\n\n- 🧾 **Access:** Create an account <a href=\"https://nextcloud.twinquasar.io\" target=\"_blank\">HERE</a>\n- 🎁 **Storage:** First 25 GB are free; then $5 per TB per month\n- 🔐 **Important:** Data stored on IPFS/Filecoin is **public**. Please encrypt sensitive content or only upload non-private files.\n\n## Key Features\n- Add IPFS + Filecoin as an External Storage backend in Nextcloud\n- Store files in IPFS and back them with Filecoin storage deals\n- Retrieve files via their IPFS CIDs from **any public IPFS gateway**\n- Share data easily with simple IPFS links\n- View IPFS/Filecoin info directly in the **Nextcloud file details panel**\n- Maintain Nextcloud file versioning and metadata sync\n- Transparent integration with minimal disruption to end-user experience\n- Decentralized by design: Your data is safely replicated across the IPFS/Filecoin network — even if CIDgravity disappears, content remains accessible via its CID.\n\n📘 **Learn More:** [What is IPFS?](https://docs.ipfs.tech/concepts/what-is-ipfs/)",
+    "homepage": "https://cidgravity.com",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "cloud_py_api": {
     "hash": "sha256-ZcGqq5BEibUsEabyrGQRqRE7kjkSz9mKOSjaLbEEay8=",
     "url": "https://github.com/cloud-py-api/cloud_py_api/releases/download/v0.2.0/cloud_py_api.tar.gz",
@@ -250,9 +290,9 @@
     ]
   },
   "contacts": {
-    "hash": "sha256-VWpuWbRm1Bg1Bx1SU+7VmyVGLL6sZZurVd4RVVED3PA=",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v7.1.1/contacts-v7.1.1.tar.gz",
-    "version": "7.1.1",
+    "hash": "sha256-uT1QOZpuKvsrnZWYbaQUhUdM49xdIivotFe6FAz330I=",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v7.1.3/contacts-v7.1.3.tar.gz",
+    "version": "7.1.3",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -290,8 +330,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -433,7 +473,7 @@
     "hash": "sha256-Wojv/UzDT9v9bVaC8K7GqaQYVTE4GoRG2ztHALZktLk=",
     "url": "https://github.com/nextcloud-releases/end_to_end_encryption/releases/download/v1.17.0/end_to_end_encryption-v1.17.0.tar.gz",
     "version": "1.17.0",
-    "description": "This app provides all the necessary APIs to implement End-to-End encryption on the client side.\nAdditionally it implements Secure FileDrop and makes sure that End-to-End encrypted files are neither accessible via the web interface nor other WebDAV clients.",
+    "description": "Provides the necessary endpoint to enable end-to-end encryption.\n\n**Notice:** E2EE is currently not compatible to be used together with server-side encryption",
     "homepage": "https://github.com/nextcloud/end_to_end_encryption",
     "licenses": [
       "agpl"
@@ -600,10 +640,10 @@
     ]
   },
   "files_external_ethswarm": {
-    "hash": "sha256-/fI0qwnG2CkOu61fPJNvZhM1QdaD4Wx2nkxI11yz2Cg=",
-    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.6.1/files_external_ethswarm.tar.gz",
-    "version": "0.6.1",
-    "description": "*Bring decentralized, sovereign cloud storage to Nextcloud with the HejBit Swarm plugin!*\n\nThis plugin integrates [Swarm](https://www.ethswarm.org/) (a decentralized, blockchain-connected file storage system) directly into your [Nextcloud ](https://nextcloud.com/)instance.\n\n## Table of Contents\n\n- [Dependencies](https://apps.nextcloud.com/apps/files_external_ethswarm#dependencies)\n- [Setup and Installation](https://apps.nextcloud.com/apps/files_external_ethswarm#setup-and-installation)\n- [Usage](https://apps.nextcloud.com/apps/files_external_ethswarm#usage)\n  - [Settings](https://apps.nextcloud.com/apps/files_external_ethswarm#settings)\n  - [Using HejBit Swarm](https://apps.nextcloud.com/apps/files_external_ethswarm#using-hejbit-swarm)\n  - [Additional Integration with Moodle](https://apps.nextcloud.com/apps/files_external_ethswarm#additional-integration-with-moodle)\n- [Get HejBit License](https://apps.nextcloud.com/apps/files_external_ethswarm#get-hejbit-license)\n- [License](https://apps.nextcloud.com/apps/files_external_ethswarm#license)\n  - [Using HejBit Swarm](https://apps.nextcloud.com/apps/files_external_ethswarm#using-hejbit-swarm)\n  - [Additional Integration with Moodle](https://apps.nextcloud.com/apps/files_external_ethswarm#additional-integration-with-moodle)\n- [Get HejBit License](https://apps.nextcloud.com/apps/files_external_ethswarm#get-hejbit-license)\n- [License](https://apps.nextcloud.com/apps/files_external_ethswarm#license)\n\n\n## Dependencies <span id=\"dependencies\"></span>\n\nBefore using the plugin, ensure you have the following:\n\n- An active Nextcloud instance (version 30 or 31)\n- A valid license and URL to activate the service\n  - [Request Your Free Nextcloud Swarm Plugin Trial License](https://metaprovide.org/hejbit/start)\n\n## Setup and Installation <span id=\"setup-and-installation\"></span>\n\nFollow these steps to configure HejBit Swarm in Nextcloud:\n\n1. Ensure the **External Storage** plugin is enabled.\n2. Install the **External Storage: HejBit Swarm** app from the Nextcloud App Store.\n3. Navigate to External Storage Administration: Profile menu -> Settings -> External Storage.\n4. Create a new external storage with a folder name of your choice and select *'HejBit-Swarm'* as the storage type. Then, enter the license key and URL configuration.\n\n## Usage  <span id=\"usage\"></span>\n\nOnce installed, HejBit integrates Swarm directly with Nextcloud’s \"Files\" section, allowing seamless file operations:\n\n- **Upload:** Transfer files to decentralized storage.\n- **Download:** Retrieve and view files from decentralized storage.\n- **Copy/Move:** Shift files between any external storage and decentralized storage\n\n### Settings <span id=\"settings\"></span>\n\nUsers with administrative credentials can configure the plugin through the standard External Storage settings. Here, you can input your license key and URL for HejBit.\n\n### Using HejBit Swarm <span id=\"using-hejbit-swarm\"></span>\n\nOnce setup and configured, the Decentralized Storage is ready to use.\n\n- Access the Decentralized Storage folder under \"All Files\" or via the \"Files\" menu under \"External Storage.\"\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the decentralized storage. Choose the decentralized storage folder as the target Folder.\n- Right-click on a Swarm file to copy the Swarm reference (hash) to your clipboard. Alternatively, click the three dots in the Actions menu and select 'Copy Swarm Reference.' The Swarm reference is the unique address of the file on the Swarm network.\n\n### Additional Integration with Moodle <span id=\"additional-integration-with-moodle\"></span>\n\nYou can also enhance your experience by integrating the HejBit Swarm plugin with the **Moodle Nextcloud plugin**. This integration allows users to access decentralized storage directly within the Moodle environment, providing a seamless experience for educational content management. For more information on how to set up this integration, visit the [Moodle Nextcloud repository documentation](https://docs.moodle.org/405/en/Nextcloud_repository).\n\nFor detailed guidance on using the integrated features, please refer to the [Metaprovide Learning Platform](https://learning.metaprovide.org/login/index.php).\n\n## Get HejBit Licence <span id=\"get-hejbit-license\"></span>\n\nExperience the future of data storage with 5GB of free, decentralized storage on the Ethereum Swarm network. Our plugin seamlessly integrates with your existing Nextcloud interface, providing true data sovereignty without the complexity.\n\n[Get your free licence here!](https://metaprovide.org/hejbit/start)",
+    "hash": "sha256-x74r72CrQfcnWjefOeZSxahUzMlLvcJwFLuDdDvVq+Q=",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.6.2/files_external_ethswarm.tar.gz",
+    "version": "0.6.2",
+    "description": "*Bring decentralized, sovereign cloud storage to Nextcloud with the HejBit Swarm plugin!*\n\nThis plugin integrates [Swarm](https://www.ethswarm.org/) (a decentralized, blockchain-connected file storage system) directly into your [Nextcloud ](https://nextcloud.com/)instance.\n\n## Table of Contents\n\n- Dependencies\n- Setup and Installation\n- Usage\n  - Settings\n  - Using HejBit Swarm\n  - Additional Integration with Moodle\n- HejBit Free Trial\n- License\n\n\n## Dependencies\n\nBefore using the plugin, ensure you have the following:\n\n- An active Nextcloud instance (version 30 or 31)\n- A valid Access Key and URL to activate the service\n  - [Get Your Free Trial for the Nextcloud Swarm Plugin](https://metaprovide.org/hejbit/start)\n\n## Setup and Installation\n\nFollow these steps to configure HejBit Swarm in Nextcloud:\n\n1. Ensure the **External Storage** plugin is enabled.\n2. Install the **External Storage: HejBit Swarm** app from the Nextcloud App Store.\n3. Navigate to External Storage Administration: Profile menu -> Settings -> External Storage.\n4. Create a new external storage with a folder name of your choice and select *'HejBit-Swarm'* as the storage type. Then, enter the Access Key and URL configuration.\n\n## Usage\n\nOnce installed, HejBit integrates Swarm directly with Nextcloud’s \"Files\" section, allowing seamless file operations:\n\n- **Upload:** Transfer files to decentralized storage.\n- **Download/View:** Retrieve and view files from decentralized storage.\n- **Copy/Move:** Shift files between any external storage and decentralized storage.\n- **Rename:** Change file names as needed.\n- **Archive/Restore:** Manage your files by archiving or restoring them.\n- **Hide/Show:** Control the visibility of files in your storage.\n- **View Swarm Reference:** Access the unique Swarm reference for each file.\n- **Export all Swarm References:** Backup all your Swarm references easily.\n\nAdditionally, we have introduced a HejBit Feedback button that appears in the bottom left corner when you are inside a HejBit folder. This feature allows users to easily send feedback regarding general inquiries, ideas, or issues directly from the plugin.\n\n### Settings\n\nUsers with administrative credentials can configure the plugin through the standard External Storage settings. Here, you can input your Access Key and URL for HejBit.\n\n### Using HejBit Swarm\n\nOnce setup and configured, the Decentralized Storage is ready to use.\n\n- Access the Decentralized Storage folder under \"All Files\" or via the \"Files\" menu under \"External Storage.\"\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the decentralized storage. Choose the decentralized storage folder as the target Folder.\n- To access a file's Swarm reference (its unique swarm network address), you have two options: right-click directly on the file and select the reference option, or use the three-dot Actions menu and choose 'View Swarm Reference.' Both methods will display the hash, which you can then copy to your clipboard for sharing or future access.\n- To effectively organize your files, you can utilize the Archive and Restore features for both folders and individual files, allowing for better management of your storage.\n- For a comprehensive backup of all your Swarm hashes, you can easily export all Swarm references directly from the menu located in the root HejBit Swarm folder.\n- We encourage you to share your thoughts and experiences with us! A **HejBit Feedback** button is conveniently located in the bottom left corner when you are inside a HejBit folder. This feature allows you to provide feedback on any inquiries, suggestions, or issues you may encounter, helping us enhance your experience and improve the plugin for all users.\n\n\n\n\n### Additional Integration with Moodle\n\nYou can also enhance your experience by integrating the HejBit Swarm plugin with the **Moodle Nextcloud plugin**. This integration allows users to access decentralized storage directly within the Moodle environment, providing a seamless experience for educational content management. For more information on how to set up this integration, visit the [Moodle Nextcloud repository documentation](https://docs.moodle.org/405/en/Nextcloud_repository).\n\nFor detailed guidance on using the integrated features, please refer to the [Metaprovide Learning Platform](https://learning.metaprovide.org/login/index.php).\n\n## HejBit Free Trial\n\nExperience the future of data storage with 5GB of free, decentralized storage on the Ethereum Swarm network. This offer is available as a 14-day free trial, allowing you to explore the capabilities of our plugin without any commitment. HejBit seamlessly integrates with your existing Nextcloud interface, providing true data sovereignty without the complexity. Enjoy the benefits of decentralized storage and take control of your data today!\n[Get your Free Trial here!](https://metaprovide.org/hejbit/start)\n\n## License\n\nThis program is licensed under the AGPLv3 or later.",
     "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
       "agpl"
@@ -860,9 +900,9 @@
     ]
   },
   "groupfolders": {
-    "hash": "sha256-lFIXNbBqdRHEvNFu2P68IF4v0+E4rFWLdRJYWm3RM/k=",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v19.0.4/groupfolders-v19.0.4.tar.gz",
-    "version": "19.0.4",
+    "hash": "sha256-GEM5Xw8J2xFOTf9AOlOttVXo25E/x4foT9493J9ZIf4=",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v19.1.0/groupfolders-v19.1.0.tar.gz",
+    "version": "19.1.0",
     "description": "Admin configured folders shared with everyone in a team.\n\nFolders can be configured from *Team folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more teams, control their write/sharing permissions and assign a quota for the folder.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
@@ -890,9 +930,9 @@
     ]
   },
   "hitobitologin": {
-    "hash": "sha256-3xZ/rNg1HqvaB6jmpJlq2UVAOVDuHEpJ38GWc8OPSpY=",
-    "url": "https://github.com/cevi/nextcloud-hitobito-login/releases/download/v1.0.0/hitobitologin.tar.gz",
-    "version": "1.0.0",
+    "hash": "sha256-4KB3tghRrtKh8QuKFJolAOMeOt/zijup9y6z5vnH6ZY=",
+    "url": "https://github.com/cevi/nextcloud-hitobito-login/releases/download/v1.0.1/hitobitologin-v1.0.1.tar.gz",
+    "version": "1.0.1",
     "description": "**A login integration for [Hitobito](https://github.com/hitobito/hitobito)**\n- **Group and Role mapping!** Map role/group combinations from hitobito to nextcloud groups\n- **User info sync** Information like displayname, e-mail, address, birthday is synced from hitobito to nextcloud\n- **E-Mail detection** Existing users can be linked to their hitobito account based on their e-mail\n- **Block unknown users** Users not fiting a role/group mapping can be blocked from accessing nextcloud\n- **Automatic group removal** A user can be automatically removed from nextcloud groups if the mapping no longer applies",
     "homepage": "",
     "licenses": [
@@ -1150,9 +1190,9 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-FGX4IOxMxlidXz801+B6db6T2tqSEWqpjqn8rIlpjwE=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.9.0-20250513-nightly/integration_openproject-2.9.0-20250513-nightly.tar.gz",
-    "version": "2.9.0",
+    "hash": "sha256-OodHLAIR258nZMtJJSL5bt3nhJZCRXAc0b7dfJ0lIrM=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.9.1-20250606-nightly/integration_openproject-2.9.1-20250606-nightly.tar.gz",
+    "version": "2.9.1",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
     "licenses": [
@@ -1370,19 +1410,19 @@
     ]
   },
   "listman": {
-    "hash": "sha256-fZ8qlh7e3y99pCxi6fWQQCH9iGA2sR6rJhLpMI9F9Kw=",
-    "url": "https://dalliance.net/listman/listman-31.0.0.tar.gz",
-    "version": "31.0.0",
-    "description": "This is a simple app for managing mail-lists with the Nextcloud System. Each Nextcloud user may create multiple mail-lists, circulate subscribe forms, send messages to the members of the list etc. It has a separate SMTP configuration visible only to nextcloud admin-users.\\n\\nOnly admins can send to lists, not for a shared discussion.\\n\\nNew in version 20.1.0 - actually works!\\n\\nNew in version 20.1.1 - Import CSV of list-members\\n\\nJuly 2022: New in version 20.2.1 - Option for ssl/tls encryption, page to get HTML of react-widget so it can be embedded elsewhere\\n\\nAugust 2022: New in version 20.2.2 - compatibility fixes for php7.4 and php8.\\n\\nNov 2023: new in version 27.1.2 - fixes for broken scrolling, 27.1.3 - fix scroll in web-view\\n\\n27.1.4 - Fix misc errors from upgrade to PHP8\\n\\n28.0.0 - Add markdown display, upgrade to latest vue setup",
+    "hash": "sha256-5BrXj7l5Si1LKAOcpmogmBxmog6zTeY04fMSAdkA3QU=",
+    "url": "https://dalliance.net/listman/listman-31.0.1.tar.gz",
+    "version": "31.0.1",
+    "description": "This is a simple app for managing mail-lists with the Nextcloud System. Each Nextcloud user may create multiple mail-lists, circulate subscribe forms, send messages to the members of the list etc. It has a separate SMTP configuration visible only to nextcloud admin-users.\\n\\nOnly admins can send to lists, not for a shared discussion.\\n\\nNew in version 31.0.1 - fixed bugs to allow working with Nextcloud31.",
     "homepage": "https://github.com/revpriest/listman",
     "licenses": [
       "agpl"
     ]
   },
   "logcleaner": {
-    "hash": "sha256-PX1njOYQGYoxbFhEP8z6nq7MenuBOMAR0+peqwumFe8=",
-    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.1.5/logcleaner_1.1.5.tar.gz",
-    "version": "1.1.5",
+    "hash": "sha256-UjUHBEXPPmVLi5a53GY3pwWb7yMNdDA9SJ3FNiXZUSc=",
+    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.1.6/logcleaner_1.1.6.tar.gz",
+    "version": "1.1.6",
     "description": "**Administration tool for cleaning up the log file**\n\n- ✅ Only accessible for administration.\n- ✅ Error levels with different colors.\n- ✅ Number of displayed log entries can be set.\n- ✅ After correcting a log entry it can be deleted from the log file.\n- ✅ One click deletion of all duplicates within the log file.\n- ✅ Empty the log file without using shell commands.",
     "homepage": "https://github.com/zomtec2311/logcleaner",
     "licenses": [
@@ -1390,9 +1430,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-csQ6IWPQtVy0OVO37XNLJAcn48Zh7Q467ertDIYrLOs=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.1.1/mail-v5.1.1.tar.gz",
-    "version": "5.1.1",
+    "hash": "sha256-gds7nWbO4YhiNNQWjITvzPkB3BUT3B0ONwSL7apWhXc=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.1.2/mail-v5.1.2.tar.gz",
+    "version": "5.1.2",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1405,6 +1445,16 @@
     "version": "1.2.1",
     "description": "Integrates an existing RoundCube standalone email-webapp into NextCloud, with optional SSO.",
     "homepage": "https://github.com/rotdrop/nextcloud-roundcube/",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "majordomo": {
+    "hash": "sha256-8wy3RxPNTr+EH7Q+bDXWndGmNNoapV4pIn4kJVJx+4k=",
+    "url": "https://github.com/mziech/nextcloud-majordomo/releases/download/v2.1.1/majordomo.tar.gz",
+    "version": "2.1.1",
+    "description": "Using this app you can automatically synchronize your user's to a\n[Majordomo mailing list manager](https://en.wikipedia.org/wiki/Majordomo_(software)).\nIt is possible to configure multiple mailing lists at any list server to include or exclude selected groups, users and other email addresses.\n\nImport of existing mailing list memberships is supported, as well as reviewing changes before you apply them.\nAt your option, this app will keep your mailing list memberships up-to-date on a daily basis.\n\nThis app requires the PHP `imap` module and a dedicated IMAP mailbox to function!",
+    "homepage": "https://github.com/mziech/nextcloud-majordomo",
     "licenses": [
       "agpl"
     ]
@@ -1500,9 +1550,9 @@
     ]
   },
   "news": {
-    "hash": "sha256-rgDj2HMlCf4Cu7ZmWbQxwyKS82mjwZPY/O0vSIoKnbQ=",
-    "url": "https://github.com/nextcloud/news/releases/download/26.0.0/news.tar.gz",
-    "version": "26.0.0",
+    "hash": "sha256-T/ZKL4YWw0ai7mZ9gm91BUl6Md6hyTakYgKsarSYO4k=",
+    "url": "https://github.com/nextcloud/news/releases/download/26.0.1/news.tar.gz",
+    "version": "26.0.1",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
@@ -1650,9 +1700,9 @@
     ]
   },
   "ownershiptransfer": {
-    "hash": "sha256-PwfdiXs4ch3atxUfFvqWCCEHXyNMO8N/uB/TT1L8J2A=",
-    "url": "https://packages.framasoft.org/projects/nextcloud-apps/ownership-transfer/ownershiptransfer-1.2.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-/NAG4VxH5r90XBpkeJi7H6WUuvDqUCqGmJH5Uy+ADos=",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/ownership-transfer/ownershiptransfer-1.2.1.tar.gz",
+    "version": "1.2.1",
     "description": "This app helps instance administrator to transfer any user's data to another user.\n\nAdmins can transfer data from the following apps:\n\n* **Files**: transfer all the files or a specific folder\n* **Calendar**: transfer all the calendars or a specific one\n* **Contacts**: transfer all the contacts or a specific address book",
     "homepage": "https://framagit.org/framasoft/nextcloud/ownershiptransfer",
     "licenses": [
@@ -1665,6 +1715,16 @@
     "version": "0.13.0",
     "description": "Ownpad is a Nextcloud application that allows to create and open Etherpad and Ethercalc documents.\n\nThis application requires to have access to an instance of <a href=\"https://etherpad.org/\">Etherpad</a> and/or <a href=\"https://ethercalc.net/\">Ethercalc</a> to work properly.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "pandoc": {
+    "hash": "sha256-BSS7dAjFez1L81++/0ADuQQ2aTycBXlQIjDF78wZ5BM=",
+    "url": "https://github.com/mejo-/pandoc/releases/download/v0.8.0/pandoc-0.8.0.tar.gz",
+    "version": "0.8.0",
+    "description": "Allows to convert text files from one markup to\n        another using Pandoc. It requires [Pandoc](https://pandoc.org/) to\n        be installed on the Nextcloud host.",
+    "homepage": "https://github.com/mejo-/pandoc",
     "licenses": [
       "agpl"
     ]
@@ -1700,10 +1760,10 @@
     ]
   },
   "pax_fax": {
-    "hash": "sha256-729TfJJqlQC8TixvnmrvxYieBAKondiGxaeK1mVRVps=",
-    "url": "https://git.doublebastion.com/releases/pax-fax/1.1.9/pax_fax.tar.gz",
-    "version": "1.1.9",
-    "description": "This application allows sending and receiving faxes in Nextcloud. A Phaxio account and a real fax number acquired from Phaxio are needed. \nComplete instructions on how to configure and use this application are detailed in the 'Admin documentation' linked on this page.\n          \n### Features:\n\n* 🚀 Multiple documents can be sent in one fax call (up to 20 separate files with a cumulative size of up to 20 MB).\n\n* 📠 A fax can be sent to multiple fax numbers at once (up to 15 different fax numbers).\n\n* 📄 Users can send as fax any document in any of the following formats: pdf, doc, docx, odt, jpeg/jpg, png, tiff/tif, txt, html.\n\n* 📰 All incoming faxes are received as pdf documents and stored in a Nextcloud folder.\n\n* 📧 Users receive notifications and (optionally) emails when new faxes arrive.\n\n* 🔍 All the sent and received faxes are stored in specific Nextcloud folders, so that they can be searched by caller/callee phone number or date.\n\n* 💻 When they want to send a fax, users can upload files from their computer or choose them directly from Nextcloud.\n\n* 🔏 Incoming fax requests are checked for authenticity and integrity by verifying Phaxio's signature.\n\n* 💵 Current Phaxio balance can be always checked by pressing a button on the left panel.\n\n* 💰 The only ongoing cost is $2 per month for a fax number located in USA or Canada, in a city chosen by the user. No contracts.\n\n* 💸 Straightforward pricing: $0.07 per sent/received page for faxes to/from USA and Canada and $0.1 per sent/received page for faxes to/from other countries.\n\nWe have no affiliation with Phaxio.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-pax-fax)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
+    "hash": "sha256-M/cCP1+eFxAADVSct6JH1qMBVuhzsIi85rkD2tANKKE=",
+    "url": "https://git.doublebastion.com/releases/pax-fax/1.2.0/pax_fax.tar.gz",
+    "version": "1.2.0",
+    "description": "This application allows sending and receiving faxes in Nextcloud. A Phaxio or Sinch account and a real fax number acquired from Phaxio or Sinch are needed. \nComplete instructions on how to configure and use this application are detailed in the 'Admin documentation' linked on this page.\n\n### Features:\n\n* 🚀 Multiple documents can be sent in one fax call (up to 20 separate files with a cumulative size of up to 20 MB).\n\n* 📠 A fax can be sent to multiple fax numbers at once (up to 15 different fax numbers).\n\n* 📄 Users can send as fax any document in any of the following formats: pdf, doc, docx, odt, jpeg/jpg, png, tiff/tif, txt, html.\n\n* 📰 All incoming faxes are received as pdf documents and stored in a Nextcloud folder.\n\n* 📧 Users receive notifications and (optionally) emails when new faxes arrive.\n\n* 🔍 All the sent and received faxes are stored in specific Nextcloud folders, so that they can be searched by caller/callee phone number or date.\n\n* 💻 When they want to send a fax, users can upload files from their computer or choose them directly from Nextcloud.\n\n* 🔏 When using Phaxio, incoming fax requests are checked for authenticity and integrity by verifying Phaxio's signature.\n\n* 💵 Current Phaxio balance can be always checked by pressing a button on the left panel.\n\n* 💰 The only ongoing cost is $0.91 per month (Sinch) or $2 per month (Phaxio) for a fax number located in USA or Canada (Phaxio) or in USA, Canada or other countries (Sinch), in a city chosen by the user. No contracts.\n\n* 💸 Straightforward pricing: $0.07 per sent/received page for faxes to/from USA and Canada and $0.1 per sent/received page for faxes to/from other countries.\n\nWe have no affiliation with Phaxio or Sinch.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-pax-fax)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
     "homepage": "https://www.doublebastion.com/pax-fax/",
     "licenses": [
       "agpl"
@@ -1840,9 +1900,9 @@
     ]
   },
   "repod": {
-    "hash": "sha256-77XOonPVXkR7C6Cu9SBr9IqxqRIiSw0kwk6TA5N4QqI=",
-    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/3.5.8/repod.tar.gz",
-    "version": "3.5.8",
+    "hash": "sha256-+eCWXvEhfK38EFqjQwOoi8QqZiqLr9F48pzWIaBppvs=",
+    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/3.6.0/repod.tar.gz",
+    "version": "3.6.0",
     "description": "## Features\n- 🔍 Browse and subscribe huge collection of podcasts\n- 🔊 Listen to episodes directly in Nextcloud\n- 🌐 Sync your activity with [AntennaPod](https://antennapod.org/) and [other apps](https://git.crystalyx.net/Xefir/repod#clients-supporting-sync-of-gpoddersync)\n- 📱 Mobile friendly interface\n- 📡 Import and export your subscriptions\n- ➡️ Full features comparison [here](https://git.crystalyx.net/Xefir/repod#comparaison-with-similar-apps-for-nextcloud)\n\n## Requirements\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://git.crystalyx.net/Xefir/repod",
     "licenses": [
@@ -1850,9 +1910,9 @@
     ]
   },
   "richdocuments": {
-    "hash": "sha256-fxVopw6n+0wU+OMiR3QFw1c/8YrzVMTtFfRharvNl0A=",
-    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.6.5/richdocuments-v8.6.5.tar.gz",
-    "version": "8.6.5",
+    "hash": "sha256-3tCUe7mXgUpmWSWd1y7uYGc3yBk2C26QLPAOcfsUEjY=",
+    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.7.0/richdocuments-v8.7.0.tar.gz",
+    "version": "8.7.0",
     "description": "This application can connect to a Collabora Online (or other) server (WOPI-like Client). Nextcloud is the WOPI Host. Please read the documentation to learn more about that.\n\nYou can also edit your documents off-line with the Collabora Office app from the **[Android](https://play.google.com/store/apps/details?id=com.collabora.libreoffice)** and **[iOS](https://apps.apple.com/us/app/collabora-office/id1440482071)** store.",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1930,9 +1990,9 @@
     ]
   },
   "sentry": {
-    "hash": "sha256-TdtQc7NKU4B/2jv3KQDz3qu0iOvwOfWrcRz83MwcPwI=",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.15.4/sentry-v8.15.4.tar.gz",
-    "version": "8.15.4",
+    "hash": "sha256-/hKeF/+KlQ96oSJw2DjzAy4rd4ha2Ad5zuP6TKyP8IM=",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.15.5/sentry-v8.15.5.tar.gz",
+    "version": "8.15.5",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -1980,9 +2040,9 @@
     ]
   },
   "shiftsnext": {
-    "hash": "sha256-ETD740ZGJG9bktD2ETM9BncnrShkkkzPd+5YhIcSB3c=",
-    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v1.1.2/shiftsnext.tar.gz",
-    "version": "1.1.2",
+    "hash": "sha256-F/VR6Gd2+sCNaN1LU8PhBhP5hQtu3V8E9/LBtIKJ558=",
+    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v1.1.4/shiftsnext.tar.gz",
+    "version": "1.1.4",
     "description": "Manage your shifts and sync them to your calendar",
     "homepage": "https://github.com/csoc-de/shiftsnext",
     "licenses": [
@@ -2150,9 +2210,9 @@
     ]
   },
   "spreed": {
-    "hash": "sha256-O0W1olbpau+GjYdND/IYMl3GJntsG9p51VRbmRWksTI=",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v21.0.4/spreed-v21.0.4.tar.gz",
-    "version": "21.0.4",
+    "hash": "sha256-DxwK3PMsLTxbdjyM10rX6wveRFCr8EoIGToKSkaMwYM=",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v21.1.0/spreed-v21.1.0.tar.gz",
+    "version": "21.1.0",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat** Nextcloud Talk comes with a simple text chat, allowing you to share or upload files from your Nextcloud Files app or local device and mention other participants.\n* 👥 **Private, group, public and password protected calls!** Invite someone, a whole group or send a public link to invite to a call.\n* 🌐 **Federated chats** Chat with other Nextcloud users on their servers\n* 💻 **Screen sharing!** Share your screen with the participants of your call.\n* 🚀 **Integration with other Nextcloud apps** like Files, Calendar, User status, Dashboard, Flow, Maps, Smart picker, Contacts, Deck, and many more.\n* 🌉 **Sync with other chat solutions** With [Matterbridge](https://github.com/42wim/matterbridge/) being integrated in Talk, you can easily sync a lot of other chat solutions to Nextcloud Talk and vice-versa.",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
@@ -2390,9 +2450,9 @@
     ]
   },
   "user_retention": {
-    "hash": "sha256-UxPL2vlktk87ZFt+5xHx2i3bFMsrUR5akRlaoq2xuJo=",
-    "url": "https://github.com/nextcloud-releases/user_retention/releases/download/v1.14.0/user_retention-v1.14.0.tar.gz",
-    "version": "1.14.0",
+    "hash": "sha256-eByelEHSjYmn6u9dzk4c2LJCP5i9XYbeMVdXZvDB8Bc=",
+    "url": "https://github.com/nextcloud-releases/user_retention/releases/download/v1.14.1/user_retention-v1.14.1.tar.gz",
+    "version": "1.14.1",
     "description": "Accounts are deleted when they did not log in within the given number of days. This will also delete all files and other data associated with the account.\n\n* 🛂 Different retention possible for normal accounts and accounts of the [guests app](https://apps.nextcloud.com/apps/guests)\n* ⛔ Exclude accounts based on group memberships (default: admin group)\n* 🔑 Exclude accounts that never logged in (default: enabled)",
     "homepage": "https://github.com/nextcloud/user_retention",
     "licenses": [
@@ -2525,6 +2585,16 @@
     "version": "2.0.0",
     "description": "Pass files on to external scripts depending on a defined set of rules.",
     "homepage": "https://github.com/nextcloud/workflow_script",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "workspace": {
+    "hash": "sha256-gvaiwiVeTK3FbG3SICfRn8frV97/Tl+RDuVF+QP14X4=",
+    "url": "https://github.com/arawa/workspace/releases/download/v4.0.4/workspace-4.0.4.tar.gz",
+    "version": "4.0.4",
+    "description": "# Description\n\nWorkspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\n# App configuration\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - In \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nIf you are using a major version of Nextcloud lower than Nextcloud 25, please follow the instructions provided on [GitHub](https://github.com/arawa/workspace). \n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation), or [user documentation](https://github.com/arawa/workspace/tree/main/docs/user-guide/from-3.X.X).",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
