@@ -10,9 +10,9 @@
     ]
   },
   "analytics": {
-    "hash": "sha256-T8qYh7HvSezoT0ClZCLUIrN80ebvhblglUPNrpyLCzg=",
-    "url": "https://github.com/Rello/analytics/releases/download/5.5.0/analytics-5.5.0.tar.gz",
-    "version": "5.5.0",
+    "hash": "sha256-6/RXSZGx6nba/KGzMDaexnIF2JmoZ+3t51OZav9eh9s=",
+    "url": "https://github.com/Rello/analytics/releases/download/5.6.2/analytics-5.6.2.tar.gz",
+    "version": "5.6.2",
     "description": "Connect data from different sources in one place.\nUse flexible Panoramas and reports with seamless Nextcloud integration.\nVisualize and share anything, from financial analysis to IoT logs.\n\n\n#### Features:\n- Visualization: **Panoramas**, reports, charts, tables, filters\n- Data sources:\n  - csv, spreadsheet, API, import, manual entry\n  - Nextcloud Files, Forms, Tables\n  - external: GitHub, website grabber, JSON\n- Register external data sources from other apps\n- Storage: **real-time** or database\n- Advanced data loads with scheduling\n- Analysis functions: **trend**, dis-/aggregation\n- Thresholds for alerts and color coding\n- Sharing: user, groups, link\n- Integration: Files, Activity, Notifications, Flow, Dashboard, Search, Smart picker, Translation\n- **AI Assistant**: Context Chat integration",
     "homepage": "https://rello.github.io/analytics/",
     "licenses": [
@@ -160,9 +160,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-KB65KF4RakVBX1vhZferDJCTMpqbFBvWn6W0Wi8QJfc=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.3.1/calendar-v5.3.1.tar.gz",
-    "version": "5.3.1",
+    "hash": "sha256-vsqyTtHDTjB4POwQyDtlAPnb8nBQw0ZTBnBUqP4Kw9A=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.3.2/calendar-v5.3.2.tar.gz",
+    "version": "5.3.2",
     "description": "A Calendar app for Nextcloud. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Like Contacts, Talk, Tasks, Deck and Circles\n* 🌐 **WebCal Support!** Want to see your favorite team's matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 **Search!** Find your events at ease\n* ☑️ **Tasks!** See tasks or Deck cards with a due date directly in the calendar\n* 🔈 **Talk rooms!** Create an associated Talk room when booking a meeting with just one click\n* 📆 **Appointment booking** Send people a link so they can book an appointment with you [using this app](https://apps.nextcloud.com/apps/appointments)\n* 📎 **Attachments!** Add, upload and view event attachments\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -260,9 +260,9 @@
     ]
   },
   "cidgravity": {
-    "hash": "sha256-7NEbWLfz4gd+9BDx+HfoMxUt5D73L+vJIzKjaG1vx+0=",
-    "url": "https://github.com/CIDgravity/nextcloud-cidgravity-app/releases/download/v2.0.1/cidgravity.tar.gz",
-    "version": "2.0.0",
+    "hash": "sha256-b2GTzs/Xk/6xi0x35WJtu/wIoVOmjCd/s16PqWeLEXs=",
+    "url": "https://github.com/CIDgravity/nextcloud-cidgravity-app/releases/download/v2.0.3/cidgravity.tar.gz",
+    "version": "2.0.3",
     "description": "# CIDgravity for Nextcloud\n**Decentralized Storage Integration via IPFS & Filecoin**\n\nCIDgravity integrates IPFS and Filecoin as a decentralized backend for your Nextcloud instance. It enables seamless storage and retrieval of files using content addressing (via IPFS CIDs), while leveraging Filecoin for persistent and verifiable storage.\n\nWith CIDgravity, users can continue working within the familiar Nextcloud interface, while benefiting from the resilience, **verifiability**, and **immutability** provided by Web3 storage protocols like IPFS.\n\n## Get Started\n\n- 🧾 **Access:** Create an account <a href=\"https://nextcloud.twinquasar.io\" target=\"_blank\">HERE</a>\n- 🎁 **Storage:** First 25 GB are free; then $5 per TB per month\n- 🔐 **Important:** Data stored on IPFS/Filecoin is **public**. Please encrypt sensitive content or only upload non-private files.\n\n## Key Features\n- Add IPFS + Filecoin as an External Storage backend in Nextcloud\n- Store files in IPFS and back them with Filecoin storage deals\n- Retrieve files via their IPFS CIDs from **any public IPFS gateway**\n- Share data easily with simple IPFS links\n- View IPFS/Filecoin info directly in the **Nextcloud file details panel**\n- Maintain Nextcloud file versioning and metadata sync\n- Transparent integration with minimal disruption to end-user experience\n- Decentralized by design: Your data is safely replicated across the IPFS/Filecoin network — even if CIDgravity disappears, content remains accessible via its CID.\n\n📘 **Learn More:** [What is IPFS?](https://docs.ipfs.tech/concepts/what-is-ipfs/)",
     "homepage": "https://cidgravity.com",
     "licenses": [
@@ -290,9 +290,9 @@
     ]
   },
   "collectives": {
-    "hash": "sha256-FSn1sghVwiCwgYctFhlTzFhb5OKVb4P92CE7MxnX+Tg=",
-    "url": "https://github.com/nextcloud/collectives/releases/download/v2.17.1/collectives-2.17.1.tar.gz",
-    "version": "2.17.1",
+    "hash": "sha256-RCpIfoSmYahIo03IumJwEn/06ZeqOhJ/ov5WKGvwcUA=",
+    "url": "https://github.com/nextcloud/collectives/releases/download/v2.18.0/collectives-2.18.0.tar.gz",
+    "version": "2.18.0",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Team](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Teams«** and **»Collectives«** apps and enable them.",
     "homepage": "https://github.com/nextcloud/collectives",
     "licenses": [
@@ -370,9 +370,9 @@
     ]
   },
   "dav_push": {
-    "hash": "sha256-XRDZHZFHQ1GChWE7Ps5lqhf7aPO4qZtWGoz8wBFQl/g=",
-    "url": "https://github.com/bitfireAT/nc_ext_dav_push/releases/download/v0.0.2/dav_push.tar.gz",
-    "version": "0.0.2",
+    "hash": "sha256-+Ji6xYFudC5ds4YLJnzZ34v7Ct615CdtkZPyq8iTsdA=",
+    "url": "https://github.com/bitfireAT/nc_ext_dav_push/releases/download/v0.0.3/dav_push.tar.gz",
+    "version": "0.0.3",
     "description": "**This extension is in a very early stage of development. It is for demonstration and testing purposes only. Don't use it on production systems!**\n\nIn proprietary environments, changes in events and contacts are nowadays usually pushed to other clients so that they can update their views almost in real-time.\n\nWebDAV however (and in this context, especially CalDAV and CardDAV) doesn't currently support push notifications of clients when a collection has changed. So clients have to periodically ask the server for changes. This causes unnecessary delays and battery usage.\n\nThe WebDAV-Push standard, which is currently in development, wants to solve this problem with an open protocol, too.\n\nThis is the server part of these efforts to draft a standard and provide a working implementation (server + client) in order to demonstrate it.\n\n\nThe current WebDAV-Push draft is provided by [@bitfireAT](https://github.com/bitfireAT).\n          \nThis Nextcloud extension has been developed by [@verdigado](https://github.com/verdigado).",
     "homepage": "",
     "licenses": [
@@ -920,9 +920,9 @@
     ]
   },
   "google_synchronization": {
-    "hash": "sha256-HpmUV7EUOmj419agiBtQXnsEH4uIavy+DiZvg8uu60s=",
-    "url": "https://github.com/MarcelRobitaille/nextcloud_google_synchronization/releases/download/v3.0.0/google_synchronization_3_0_0.tar.gz",
-    "version": "3.0.0",
+    "hash": "sha256-4Zcdp5Em5rUvsCp9WsU02AN4vMXWpUm+ukhQTQSNSUc=",
+    "url": "https://github.com/MarcelRobitaille/nextcloud_google_synchronization/releases/download/v3.2.0/google_synchronization_3_2_0.tar.gz",
+    "version": "3.2.0",
     "description": "Google Synchronization automatically keeps your Nextcloud calendar up to date with your Google Calendar. Incompatible with Google Integration!",
     "homepage": "https://github.com/MarcelRobitaille/nextcloud_google_synchronization",
     "licenses": [
@@ -1570,9 +1570,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-gds7nWbO4YhiNNQWjITvzPkB3BUT3B0ONwSL7apWhXc=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.1.2/mail-v5.1.2.tar.gz",
-    "version": "5.1.2",
+    "hash": "sha256-P2LeJOjCR6ufq26gz4aK/Xy359vwnD2TZJodn/YfXcU=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.1.3/mail-v5.1.3.tar.gz",
+    "version": "5.1.3",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1699,6 +1699,16 @@
       "agpl"
     ]
   },
+  "ncgrisbi": {
+    "hash": "sha256-brCyh2j3U0en0uZExB3byAh4ipNXrO9RSBSxTXKi6Ec=",
+    "url": "https://github.com/medismail/ncgrisbi/releases/download/v0.1.2/ncgrisbi_0.1.2.tar.gz",
+    "version": "0.1.2",
+    "description": "# Nextcloud Grisbi Account Manager:\n- * Open gsb file\n- * Accounts Overview\n- * Show Transactions\n- * Support Encryption\n- * and many others useful tools.",
+    "homepage": "https://github.com/medismail/ncgrisbi",
+    "licenses": [
+      "AGPL-3.0-only"
+    ]
+  },
   "neon_web": {
     "hash": "sha256-KaVP11iyizBbA4//BZpwcNmv+rf/0oujdc0Du1AXyRk=",
     "url": "https://github.com/provokateurin/neon_web/releases/download/v0.0.7/neon_web.tar.gz",
@@ -1720,8 +1730,8 @@
     ]
   },
   "nextframe": {
-    "hash": "sha256-RcMt2r9dQVlKCsWaMPhZvBipzPRKtx+V3XxsQ6PlFP0=",
-    "url": "https://github.com/Thesola10/nextcloud-nextframe/releases/download/v0.0.7/nextframe.tar.gz",
+    "hash": "sha256-+yPumTYnMf1iOtrWwNeBwePiR/VkUwsGgSVcHLj7oVU=",
+    "url": "https://github.com/Thesola10/nextcloud-nextframe/releases/download/v0.0.7-1/nextframe.tar.gz",
     "version": "0.0.7",
     "description": "This app creates a simple translucent page with the common HTML components to any Nextcloud view, with a public and logged in variant.\nThis is meant to improve the &quot;togetherness&quot; of non-Nextcloud services.",
     "homepage": "",
@@ -1790,9 +1800,9 @@
     ]
   },
   "officeonline": {
-    "hash": "sha256-YUE/l8jYESoz+ym+A5jg5kx+XbvWvIyMDMBqKQa9ZGA=",
-    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v3.0.1/officeonline-v3.0.1.tar.gz",
-    "version": "3.0.1",
+    "hash": "sha256-DreHCTgr+b3ARvXV2CQhe+K26L5fyRtjckrOQCPw5pg=",
+    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v3.0.2/officeonline-v3.0.2.tar.gz",
+    "version": "3.0.2",
     "description": "This application can connect to an on-premise/self-hosted Microsoft Office Online Server which has added Nextcloud as a WOPI host.\n\n\t**Note: The cloud-based Office 365 is not supported.**\n\n\tMicrosoft Official Documentation: [Deploying Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/deploy-office-online-server)",
     "homepage": "",
     "licenses": [
@@ -1800,9 +1810,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-MBf87/8+vfXzS4TRvf2qDnmVDvenB4UbUOFQ7iV3JN8=",
-    "url": "https://github.com/H2CK/oidc/releases/download/1.7.1/oidc-1.7.1.tar.gz",
-    "version": "1.7.1",
+    "hash": "sha256-z/9iq7FoyPMr9Lr9Rg4uXauaxqCXcT/4qoK3og6sWeM=",
+    "url": "https://github.com/H2CK/oidc/releases/download/1.7.2/oidc-1.7.2.tar.gz",
+    "version": "1.7.2",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2030,9 +2040,9 @@
     ]
   },
   "polls": {
-    "hash": "sha256-AJUC5UIz6xY75cEJHfNjhUm9K9HnXWMokt9gIOcq8vI=",
-    "url": "https://github.com/nextcloud-releases/polls/releases/download/v7.4.3/polls-v7.4.3.tar.gz",
-    "version": "7.4.3",
+    "hash": "sha256-j+Aq3Hu7i52o5HqMROTHeb/955N7Qw4TMFPEevR+bYQ=",
+    "url": "https://github.com/nextcloud-releases/polls/releases/download/v7.4.4/polls-v7.4.4.tar.gz",
+    "version": "7.4.4",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -2170,9 +2180,9 @@
     ]
   },
   "riotchat": {
-    "hash": "sha256-TnC0prLiRt+0l6dPW9bAvo32WPsJuLA/hXczrEnRa7A=",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.18.8/riotchat.tar.gz",
-    "version": "0.18.8",
+    "hash": "sha256-X1yYQUdSTD9jZDX2usmM0cdPRQEe67GOAI3Na3FK224=",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.19.0/riotchat.tar.gz",
+    "version": "0.19.0",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
@@ -2320,9 +2330,9 @@
     ]
   },
   "shiftsnext": {
-    "hash": "sha256-F/VR6Gd2+sCNaN1LU8PhBhP5hQtu3V8E9/LBtIKJ558=",
-    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v1.1.4/shiftsnext.tar.gz",
-    "version": "1.1.4",
+    "hash": "sha256-2u6wbtr04e1BzUsyewAakr8Wz3t/7ulWLqxfNY7IeY0=",
+    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v1.1.5/shiftsnext.tar.gz",
+    "version": "1.1.5",
     "description": "Manage your shifts and sync them to your calendar",
     "homepage": "https://github.com/csoc-de/shiftsnext",
     "licenses": [
@@ -2910,9 +2920,9 @@
     ]
   },
   "workflow_kitinerary": {
-    "hash": "sha256-wzA6fJ0K12mXkIu6VBSy1kixVTJeu3t6swZh0yvDZLk=",
-    "url": "https://github.com/MCMic/workflow_kitinerary/releases/download/v1.7.1/workflow_kitinerary.tar.gz",
-    "version": "1.7.1",
+    "hash": "sha256-4aRhn7yzWJMg/WMH4cSapIcx2FLi8e3m/HAHOqchRJ8=",
+    "url": "https://github.com/MCMic/workflow_kitinerary/releases/download/v1.7.3/workflow_kitinerary.tar.gz",
+    "version": "1.7.3",
     "description": "An app to trigger automatic conversion of travel documents to calendar events. It uses kitinerary to extract the information and is compatible with the KDE itinerary mobile application.",
     "homepage": "https://github.com/mcmic/workflow_kitinerary",
     "licenses": [
