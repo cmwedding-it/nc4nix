@@ -110,10 +110,10 @@
     ]
   },
   "autocurrency": {
-    "hash": "sha256-++uXYFmlTQsPhe4UFFsXy6UGqqqlXy5vECcWVo/Spj4=",
-    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v0.7.0/autocurrency-v0.7.0.tar.gz",
-    "version": "0.7.0",
-    "description": "This NextCloud app automatically fetches currency information for your Cospend projects, and fills\nthem up using the main currency as base. No more manually updating exchange rates!\n\nIt will automatically run once a day by default and use your currency names to fetch the correct\nrate.\n\nInterval for fetch may be adjusted in the admin settings \"Auto Currency\" section.\n\n**Note**: This is a companion app to Cospend. Without Cospend, this app will not work.",
+    "hash": "sha256-JVp5Z5meYzkR5gUZE3XmN8CKur7SmSbl3URyc9RN8KI=",
+    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v0.7.3/autocurrency-v0.7.3.tar.gz",
+    "version": "0.7.3",
+    "description": "This NextCloud app automatically fetches currency information for your Cospend projects, and fills\nthem up using the main currency as base. No more manually updating exchange rates!\n\n\nIt will automatically run once a day by default and use your currency names to fetch the correct\nrate.\n\n\nInterval for fetch may be adjusted in the admin settings \"Auto Currency\" section.\n\n\n> **Note**: This is a companion app to [Cospend](https://apps.nextcloud.com/apps/cospend).\n>\n> Without Cospend, this app will not work.",
     "homepage": "https://github.com/chenasraf/nextcloud-autocurrency",
     "licenses": [
       "agpl"
@@ -130,9 +130,9 @@
     ]
   },
   "bookmarks": {
-    "hash": "sha256-oXpTsmjD1zGjNoPoNVIVSVO4nHAoWy0YW3IT797XrRM=",
-    "url": "https://github.com/nextcloud/bookmarks/releases/download/v15.1.0/bookmarks-15.1.0.tar.gz",
-    "version": "15.1.0",
+    "hash": "sha256-NVe9eOL6dcL4hYYV7dsoR8ZKXFHkEGAo5sj9DXuDJEI=",
+    "url": "https://github.com/nextcloud/bookmarks/releases/download/v15.1.1/bookmarks-15.1.1.tar.gz",
+    "version": "15.1.1",
     "description": "- 📂 Sort bookmarks into folders\n- 🏷 Add tags and personal notes\n- ☠ Find broken links and duplicates\n- 📲 Synchronize with all your browsers and devices\n- 📔 Store archived versions of your links in case they are depublished\n- 🔍 Full-text search on site contents\n- 👪 Share bookmarks with other users, groups and teams or via public links\n- ⚛ Generate RSS feeds of your collections\n- 📈 Stats on how often you access which links\n- 🔒 Automatic backups of your bookmarks collection\n- 💼 Built-in Dashboard widgets for frequent and recent links\n\nRequirements:\n - PHP extensions:\n   - intl: *\n   - mbstring: *\n - when using MySQL, use at least v8.0",
     "homepage": "https://github.com/nextcloud/bookmarks",
     "licenses": [
@@ -160,9 +160,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-vsqyTtHDTjB4POwQyDtlAPnb8nBQw0ZTBnBUqP4Kw9A=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.3.2/calendar-v5.3.2.tar.gz",
-    "version": "5.3.2",
+    "hash": "sha256-YEHDWbt9Oj1rXUFHYLOXbIxE4LK/SHt0XiUJF4gG/KM=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.3.3/calendar-v5.3.3.tar.gz",
+    "version": "5.3.3",
     "description": "A Calendar app for Nextcloud. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Like Contacts, Talk, Tasks, Deck and Circles\n* 🌐 **WebCal Support!** Want to see your favorite team's matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 **Search!** Find your events at ease\n* ☑️ **Tasks!** See tasks or Deck cards with a due date directly in the calendar\n* 🔈 **Talk rooms!** Create an associated Talk room when booking a meeting with just one click\n* 📆 **Appointment booking** Send people a link so they can book an appointment with you [using this app](https://apps.nextcloud.com/apps/appointments)\n* 📎 **Attachments!** Add, upload and view event attachments\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -530,9 +530,9 @@
     ]
   },
   "epubviewer": {
-    "hash": "sha256-+aabxiyhtJGJUQkgz+4WTnOno01kiWHuvvjMK3FOGZQ=",
-    "url": "https://github.com/devnoname120/epubviewer/releases/download/1.7.2/epubviewer-1.7.2.tar.gz",
-    "version": "1.7.2",
+    "hash": "sha256-3JsZY/aF0TbSdAEgS7q53DS9wMcxz4l3A8yyQtJBepM=",
+    "url": "https://github.com/devnoname120/epubviewer/releases/download/1.8.0/epubviewer-1.8.0.tar.gz",
+    "version": "1.8.0",
     "description": "# EPUB Viewer\nEPUB Viewer is an ebook reader based on pure javascript renderers. It works for publications formatted according to the following standards:\n\n - [EPUB]\n - [PDF]\n - [CBR and CBZ] ('comics')\n\nEPUB files are displayed using the futurepress [epub.js] renderer to provide near-native looks, especially when used full-screen. Turn pages by pressing the left/right hand side of the screen/window or using the cursor keys (if you have those), use the sidebar to browse through chapters or bookmarks and add annotations.\n\nPDF is handled by Mozilla's [pdf.js] renderer in combination with a custom reader app to enable side-by-side display, batch search and more. Controls are like those used in the Epub renderer with a few exceptions, e.g. night mode has not been implemented yet.\n\nCBR and CBZ are supported using a custom renderer inspired by [balaclark]'s work. As with Epub, books can be navigated using the keyboard as well as mouse or touch navigation. Reader generates a visual index of all pages, show in the sidebar (thumbnail generation can be disabled for low-memory and/or -speed devices). As CBx files are often of varying quality, a set of image enhancement filters are provided.\n\nSee [README] for more exhaustive information on features and potential misfeatures of this app.\n\n   [epub.js]: https://github.com/futurepress/epub.js\n   [EPUB]: http://idpf.org/epub\n   [CBR and CBZ]: https://wiki.mobileread.com/wiki/CBR_and_CBZ\n   [balaclark]: https://github.com/balaclark/HTML5-Comic-Book-Reader\n   [PDF]: https://en.wikipedia.org/wiki/Portable_Document_Format\n   [pdf.js]: https://github.com/mozilla/pdf.js\n   [README]: https://github.com/devnoname120/epubviewer#readme",
     "homepage": "https://github.com/devnoname120/epubviewer",
     "licenses": [
@@ -710,9 +710,9 @@
     ]
   },
   "files_external_ethswarm": {
-    "hash": "sha256-x74r72CrQfcnWjefOeZSxahUzMlLvcJwFLuDdDvVq+Q=",
-    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.6.2/files_external_ethswarm.tar.gz",
-    "version": "0.6.2",
+    "hash": "sha256-Zt602DgUY6sbJCDVA1OM9FXMpb1rAxBFnl4+0OdrOQU=",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.6.3/files_external_ethswarm.tar.gz",
+    "version": "0.6.3",
     "description": "*Bring decentralized, sovereign cloud storage to Nextcloud with the HejBit Swarm plugin!*\n\nThis plugin integrates [Swarm](https://www.ethswarm.org/) (a decentralized, blockchain-connected file storage system) directly into your [Nextcloud ](https://nextcloud.com/)instance.\n\n## Table of Contents\n\n- Dependencies\n- Setup and Installation\n- Usage\n  - Settings\n  - Using HejBit Swarm\n  - Additional Integration with Moodle\n- HejBit Free Trial\n- License\n\n\n## Dependencies\n\nBefore using the plugin, ensure you have the following:\n\n- An active Nextcloud instance (version 30 or 31)\n- A valid Access Key and URL to activate the service\n  - [Get Your Free Trial for the Nextcloud Swarm Plugin](https://metaprovide.org/hejbit/start)\n\n## Setup and Installation\n\nFollow these steps to configure HejBit Swarm in Nextcloud:\n\n1. Ensure the **External Storage** plugin is enabled.\n2. Install the **External Storage: HejBit Swarm** app from the Nextcloud App Store.\n3. Navigate to External Storage Administration: Profile menu -> Settings -> External Storage.\n4. Create a new external storage with a folder name of your choice and select *'HejBit-Swarm'* as the storage type. Then, enter the Access Key and URL configuration.\n\n## Usage\n\nOnce installed, HejBit integrates Swarm directly with Nextcloud’s \"Files\" section, allowing seamless file operations:\n\n- **Upload:** Transfer files to decentralized storage.\n- **Download/View:** Retrieve and view files from decentralized storage.\n- **Copy/Move:** Shift files between any external storage and decentralized storage.\n- **Rename:** Change file names as needed.\n- **Archive/Restore:** Manage your files by archiving or restoring them.\n- **Hide/Show:** Control the visibility of files in your storage.\n- **View Swarm Reference:** Access the unique Swarm reference for each file.\n- **Export all Swarm References:** Backup all your Swarm references easily.\n\nAdditionally, we have introduced a HejBit Feedback button that appears in the bottom left corner when you are inside a HejBit folder. This feature allows users to easily send feedback regarding general inquiries, ideas, or issues directly from the plugin.\n\n### Settings\n\nUsers with administrative credentials can configure the plugin through the standard External Storage settings. Here, you can input your Access Key and URL for HejBit.\n\n### Using HejBit Swarm\n\nOnce setup and configured, the Decentralized Storage is ready to use.\n\n- Access the Decentralized Storage folder under \"All Files\" or via the \"Files\" menu under \"External Storage.\"\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the decentralized storage. Choose the decentralized storage folder as the target Folder.\n- To access a file's Swarm reference (its unique swarm network address), you have two options: right-click directly on the file and select the reference option, or use the three-dot Actions menu and choose 'View Swarm Reference.' Both methods will display the hash, which you can then copy to your clipboard for sharing or future access.\n- To effectively organize your files, you can utilize the Archive and Restore features for both folders and individual files, allowing for better management of your storage.\n- For a comprehensive backup of all your Swarm hashes, you can easily export all Swarm references directly from the menu located in the root HejBit Swarm folder.\n- We encourage you to share your thoughts and experiences with us! A **HejBit Feedback** button is conveniently located in the bottom left corner when you are inside a HejBit folder. This feature allows you to provide feedback on any inquiries, suggestions, or issues you may encounter, helping us enhance your experience and improve the plugin for all users.\n\n\n\n\n### Additional Integration with Moodle\n\nYou can also enhance your experience by integrating the HejBit Swarm plugin with the **Moodle Nextcloud plugin**. This integration allows users to access decentralized storage directly within the Moodle environment, providing a seamless experience for educational content management. For more information on how to set up this integration, visit the [Moodle Nextcloud repository documentation](https://docs.moodle.org/405/en/Nextcloud_repository).\n\nFor detailed guidance on using the integrated features, please refer to the [Metaprovide Learning Platform](https://learning.metaprovide.org/login/index.php).\n\n## HejBit Free Trial\n\nExperience the future of data storage with 5GB of free, decentralized storage on the Ethereum Swarm network. This offer is available as a 14-day free trial, allowing you to explore the capabilities of our plugin without any commitment. HejBit seamlessly integrates with your existing Nextcloud interface, providing true data sovereignty without the complexity. Enjoy the benefits of decentralized storage and take control of your data today!\n[Get your Free Trial here!](https://metaprovide.org/hejbit/start)\n\n## License\n\nThis program is licensed under the AGPLv3 or later.",
     "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
@@ -1319,6 +1319,16 @@
       "agpl"
     ]
   },
+  "integration_overleaf": {
+    "hash": "sha256-Ch6nVF/U0NwhHX0vsJTuAvKApJHoZwf1NZXRHXscRZk=",
+    "url": "https://github.com/nextcloud-releases/integration_overleaf/releases/download/v1.0.2/integration_overleaf-v1.0.2.tar.gz",
+    "version": "1.0.2",
+    "description": "App to edit latex files using overleaf.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "integration_paperless": {
     "hash": "sha256-Tw0VZk+ByXLmFdNBgJdFnHUiFarDP+YyulzvCmE3ivw=",
     "url": "https://github.com/nextcloud-releases/integration_paperless/releases/download/v1.0.6/integration_paperless-v1.0.6.tar.gz",
@@ -1520,9 +1530,9 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-9ZLfecV0/IkY2ueCUQ5HAkA907v92qVGReYuxT421qE=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v10.8.3/libresign-v10.8.3.tar.gz",
-    "version": "10.8.3",
+    "hash": "sha256-DUUA/9IVnCW8CdXkGVO9ugLLsXs5UDZ5e2BQCSk2UlM=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v10.8.4/libresign-v10.8.4.tar.gz",
+    "version": "10.8.4",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1550,9 +1560,9 @@
     ]
   },
   "logcleaner": {
-    "hash": "sha256-UjUHBEXPPmVLi5a53GY3pwWb7yMNdDA9SJ3FNiXZUSc=",
-    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.1.6/logcleaner_1.1.6.tar.gz",
-    "version": "1.1.6",
+    "hash": "sha256-df70BYJVnmlin2SDNNFKzf6R0381NqRdfZO7cBEWAl4=",
+    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.1.7/logcleaner_1.1.7.tar.gz",
+    "version": "1.1.7",
     "description": "**Administration tool for cleaning up the log file**\n\n- ✅ Only accessible for administration.\n- ✅ Error levels with different colors.\n- ✅ Number of displayed log entries can be set.\n- ✅ After correcting a log entry it can be deleted from the log file.\n- ✅ One click deletion of all duplicates within the log file.\n- ✅ Empty the log file without using shell commands.",
     "homepage": "https://github.com/zomtec2311/logcleaner",
     "licenses": [
@@ -1570,9 +1580,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-P2LeJOjCR6ufq26gz4aK/Xy359vwnD2TZJodn/YfXcU=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.1.3/mail-v5.1.3.tar.gz",
-    "version": "5.1.3",
+    "hash": "sha256-NxXrmaA8emxugh15np/+iCWt/am/OY8YtTM3+sj/K00=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.1.4/mail-v5.1.4.tar.gz",
+    "version": "5.1.4",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1680,10 +1690,10 @@
     ]
   },
   "music": {
-    "hash": "sha256-h83Xc292/NQPWOTRIbUSgqHUH/Sp4fYJ8GAHSiJWHP0=",
-    "url": "https://github.com/owncloud/music/releases/download/v2.1.4/music_2.1.4_for_nextcloud.tar.gz",
-    "version": "2.1.4",
-    "description": "A stand-alone music player app and a \"lite\" player for the Files app\n\n- On modern browsers, supports audio types .mp3, .ogg, .m4a, .m4b, .flac, .wav, and more\n- Playlist support with import from m3u, m3u8, and pls files\n- Browse by artists, albums, genres, or folders\n- Gapless play\n- Filter the shown content with the search function\n- Advanced search to freely use and combine dozens of search criteria\n- Play internet radio and podcast channels\n- Setup Last.fm connection to see background information on artists, albums, and songs\n- Control with media control keys on the keyboard or OS\n- The app can handle libraries consisting of thousands of albums and tens of thousands of songs\n- Includes a server backend compatible with the Subsonic and Ampache protocols, allowing playback and browsing of your library on dozens of external apps on Android, iOS, Windows, Linux, etc.\n- Widget for the Nextcloud Dashboard",
+    "hash": "sha256-8FQrQdoaSeJh4tnqvGOiuxN1YPQIJSwm6sTHOfc31cg=",
+    "url": "https://github.com/owncloud/music/releases/download/v2.2.0/music_2.2.0_for_nextcloud.tar.gz",
+    "version": "2.2.0",
+    "description": "A stand-alone music player app and a \"lite\" player for the Files app\n\n- On modern browsers, supports audio types .mp3, .ogg, .m4a, .m4b, .flac, .wav, and more\n- Playlist support with import from .m3u, .m3u8, .pls, and .wpl files\n- Show lyrics from the file metadata or .lrc files\n- Browse by artists, albums, genres, or folders\n- Gapless play\n- Filter the shown content with the search function\n- Advanced search to freely use and combine dozens of search criteria\n- Play internet radio and podcast channels\n- Setup Last.fm connection to see background information on artists, albums, and songs\n- Control with media control keys on the keyboard or OS\n- The app can handle libraries consisting of thousands of albums and tens of thousands of songs\n- Includes a server backend compatible with the Subsonic and Ampache protocols, allowing playback and browsing of your library on dozens of external apps on Android, iOS, Windows, Linux, etc.\n- Widget for the Nextcloud Dashboard",
     "homepage": "https://github.com/owncloud/music",
     "licenses": [
       "agpl"
@@ -1840,19 +1850,19 @@
     ]
   },
   "opencatalogi": {
-    "hash": "sha256-jRPbHu//cXkXKyFzJh6wMfPnmbblCpvB6OFpYWGpT8g=",
-    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.74/opencatalogi-0.6.74.tar.gz",
-    "version": "0.6.74",
-    "description": "📰 A OpenCatalogi App for Nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple catalogi\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
+    "hash": "sha256-tG/3isnQI+KX5/Ia4h5Msusn56qsx2j9LWEvPqcfHOk=",
+    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.7.2/opencatalogi-0.7.2.tar.gz",
+    "version": "0.7.2",
+    "description": "📰 A OpenCatalogi App for Nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple catalogi\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n- ⚙️ Automatically installs and enables [OpenRegister](https://apps.nextcloud.com/apps/openregister) (required dependency)\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://documentatie.opencatalogi.nl/",
     "licenses": [
       "agpl"
     ]
   },
   "openconnector": {
-    "hash": "sha256-9QIOUFoc7KXT5YGzDsrYyt0A0co3szIYar4+nsthRZM=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.78/openconnector-0.1.78.tar.gz",
-    "version": "0.1.78",
+    "hash": "sha256-vwPHA92SwjZ6Q6o+VZYue+Uzm+qNOkj5P4fmUmkgrpg=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.2.2/openconnector-0.2.2.tar.gz",
+    "version": "0.2.2",
     "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources\n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
@@ -1900,9 +1910,9 @@
     ]
   },
   "openregister": {
-    "hash": "sha256-i2zDdlu+8qCUIaNM2MvZsYvyVJyRHVrlNxumLcNAiwc=",
-    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.77/openregister-0.1.77.tar.gz",
-    "version": "0.1.77",
+    "hash": "sha256-Lqw1deZ2eyT+Da/3/UdDWx20hDgtvEr+KcWgubUeL/8=",
+    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.2.2/openregister-0.2.2.tar.gz",
+    "version": "0.2.2",
     "description": "📰 An OpenRegister App for Nextcloud\n\nThe OpenRegister Nextcloud app provides a framework for federated registers to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple registers\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/openregister-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenRegister/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenRegister/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenRegister/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/OpenRegister",
     "licenses": [
@@ -2043,7 +2053,7 @@
     "hash": "sha256-j+Aq3Hu7i52o5HqMROTHeb/955N7Qw4TMFPEevR+bYQ=",
     "url": "https://github.com/nextcloud-releases/polls/releases/download/v7.4.4/polls-v7.4.4.tar.gz",
     "version": "7.4.4",
-    "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
+    "description": "A polls app, similar to Doodle/DuD-Poll with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
       "agpl"
@@ -2260,9 +2270,9 @@
     ]
   },
   "sentry": {
-    "hash": "sha256-/hKeF/+KlQ96oSJw2DjzAy4rd4ha2Ad5zuP6TKyP8IM=",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.15.5/sentry-v8.15.5.tar.gz",
-    "version": "8.15.5",
+    "hash": "sha256-5dbIwaypgA5M2AC6MW4kCzg/K3s+WvhZWPw1JV8zzuo=",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.15.6/sentry-v8.15.6.tar.gz",
+    "version": "8.15.6",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2520,9 +2530,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-yC/hL6YcbXHYmUmrhXVCe0zjyoupSLLcIp0SNnMMeyM=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.5/softwarecatalog-0.1.5.tar.gz",
-    "version": "0.1.5",
+    "hash": "sha256-vor0Q//9IieKi75Un9fzeBM82Q+5S3IZuI4UleyfHrA=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.6/softwarecatalog-0.1.6.tar.gz",
+    "version": "0.1.6",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
@@ -2750,9 +2760,9 @@
     ]
   },
   "unroundedcorners": {
-    "hash": "sha256-ONOBDUciyWlKvi3Fd5+mWh3OLRfyW+PlKJKJWdMph0U=",
-    "url": "https://github.com/OliverParoczai/nextcloud-unroundedcorners/releases/download/v1.1.4/unroundedcorners-v1.1.4.tar.gz",
-    "version": "1.1.4",
+    "hash": "sha256-0+fOJnPsuengy8TPzTKizDnDXTlZStalFDOv+dFlRgc=",
+    "url": "https://github.com/OliverParoczai/nextcloud-unroundedcorners/releases/download/v1.1.5/unroundedcorners-v1.1.5.tar.gz",
+    "version": "1.1.5",
     "description": "# Unrounded Corners\nA Nextcloud app that restores the corners of buttons and widgets to their original looks by unrounding them.",
     "homepage": "https://github.com/OliverParoczai/nextcloud-unroundedcorners",
     "licenses": [
@@ -2890,9 +2900,9 @@
     ]
   },
   "whiteboard": {
-    "hash": "sha256-hz8nviBUakDWH5ThDILoRFxyBFVpzJgXM6dgqry13tc=",
-    "url": "https://github.com/nextcloud-releases/whiteboard/releases/download/v1.0.5/whiteboard-v1.0.5.tar.gz",
-    "version": "1.0.5",
+    "hash": "sha256-pxBp8XDvbFdJk/wnA8P8EFfRDge91HcSZBJ8wsSE/zM=",
+    "url": "https://github.com/nextcloud-releases/whiteboard/releases/download/v1.1.0/whiteboard-v1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "The official whiteboard app for Nextcloud. It allows users to create and share whiteboards with other users and collaborate in real-time.\n\n**Whiteboard requires a separate collaboration server to work.** Please see the [documentation](https://github.com/nextcloud/whiteboard?tab=readme-ov-file#backend) on how to install it.\n\n- 🎨 Drawing shapes, writing text, connecting elements\n- 📝 Real-time collaboration\n- 🖼️ Add images with drag and drop\n- 📊 Easily add mermaid diagrams\n- ✨ Use the Smart Picker to embed other elements from Nextcloud\n- 📦 Image export\n- 💪 Strong foundation: We use Excalidraw as our base library",
     "homepage": "https://github.com/nextcloud/whiteboard",
     "licenses": [
