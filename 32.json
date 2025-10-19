@@ -50,9 +50,9 @@
     ]
   },
   "appointments": {
-    "hash": "sha256-NvVUv5bNhbj1zUGrfs4rWqXFfO+7qkYIJZNWU9eZGkQ=",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/refs/tags/v2.6.0/build/artifacts/appstore/appointments.tar.gz",
-    "version": "2.6.0",
+    "hash": "sha256-B1QD17BRjJQDKB+8o9mjLiG1fCKUvZYS0eHqdctQ5bQ=",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/refs/tags/v2.6.1/build/artifacts/appstore/appointments.tar.gz",
+    "version": "2.6.1",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -80,9 +80,9 @@
     ]
   },
   "assistant": {
-    "hash": "sha256-BSvnF+MxhSJ4rTXqt6RbQYAVXEfrTspfCllZ6v0ys5M=",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.8.0/assistant-v2.8.0.tar.gz",
-    "version": "2.8.0",
+    "hash": "sha256-hbgxD6VC5ihk/2QQNX7T+Bx94g4+bBsYI4ElUBZhYCo=",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.9.0/assistant-v2.9.0.tar.gz",
+    "version": "2.9.0",
     "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Local Large language model](https://github.com/nextcloud/llm2#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)\n\nMore details on how to set this up in the [admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
@@ -130,9 +130,9 @@
     ]
   },
   "autocurrency": {
-    "hash": "sha256-0lLsj2Ao6s8wZmVby936YR+KG/C2Fi7wmVvbBkYbQ98=",
-    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.3.0/autocurrency-v1.3.0.tar.gz",
-    "version": "1.3.0",
+    "hash": "sha256-msZ5ggyX91dAze5U7QmA8s/L2BAtoep81kRHf5q+BYM=",
+    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.3.1/autocurrency-v1.3.1.tar.gz",
+    "version": "1.3.1",
     "description": "This NextCloud app automatically fetches currency information for your Cospend projects, and fills\nthem up using the main currency as base. No more manually updating exchange rates!\n\n\nYou can also view the history of currency rates fetched in the past, and see how they changed over time.\n\n\nIt will automatically run once a day by default and use your currency names to fetch the correct\nrate.\n\n\nInterval for fetch may be adjusted in the admin settings \"Auto Currency\" section.\n\n\n> **Note**: This is a companion app to [Cospend](https://apps.nextcloud.com/apps/cospend).\n>\n> Without Cospend, this app will not work.",
     "homepage": "https://github.com/chenasraf/nextcloud-autocurrency",
     "licenses": [
@@ -160,10 +160,10 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-z1O9J5R5QSisgpce7SudzOYkSvsn/zjbXCWN3Toxpo4=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v6.0.1/calendar-v6.0.1.tar.gz",
-    "version": "6.0.1",
-    "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
+    "hash": "sha256-t94XXn0KKe3262Xb0kSu5MU1KymHrO22epOhn2bAlOw=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v6.0.2/calendar-v6.0.2.tar.gz",
+    "version": "6.0.2",
+    "description": "A Calendar app for Nextcloud. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Like Contacts, Talk, Tasks, Deck and Circles\n* 🌐 **WebCal Support!** Want to see your favorite team's matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 **Search!** Find your events at ease\n* ☑️ **Tasks!** See tasks or Deck cards with a due date directly in the calendar\n* 🔈 **Talk rooms!** Create an associated Talk room when booking a meeting with just one click\n* 📆 **Appointment booking** Send people a link so they can book an appointment with you [using this app](https://apps.nextcloud.com/apps/appointments)\n* 📎 **Attachments!** Add, upload and view event attachments\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
       "agpl"
@@ -199,10 +199,20 @@
       "agpl"
     ]
   },
+  "certificate24": {
+    "hash": "sha256-qX4HPRpVLhIstMPagh7pOIVtX5FvwCa1Ofjf1htPmR8=",
+    "url": "https://github.com/strukturag/nextcloud-certificate24/releases/download/v0.3.8/certificate24.tar.gz",
+    "version": "0.3.8",
+    "description": "Certificate24 - Digital Document Signature\n\nWith Certificate24 you can request digital signatures of documents stored in your Nextcloud from other users in Nextcloud or from external users (by email).\n\nSee [the website](https://www.certificate24.com) for further information.",
+    "homepage": "https://www.certificate24.com",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "collectives": {
-    "hash": "sha256-VQawIQzg8+/W1NsKtnFY7noIQuYJXZV84S7NkOPb3xQ=",
-    "url": "https://github.com/nextcloud/collectives/releases/download/v3.2.0/collectives-3.2.0.tar.gz",
-    "version": "3.2.0",
+    "hash": "sha256-vWPT3FBSZlgA1z1zH1o1Kpd9JOmt2Ykfh3JMtMLWTjI=",
+    "url": "https://github.com/nextcloud/collectives/releases/download/v3.2.1/collectives-3.2.1.tar.gz",
+    "version": "3.2.1",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Team](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Teams«** and **»Collectives«** apps and enable them.",
     "homepage": "https://github.com/nextcloud/collectives",
     "licenses": [
@@ -220,9 +230,9 @@
     ]
   },
   "contacts": {
-    "hash": "sha256-5ngZ2RHJxy0ZMFtj1PbnifMuAT828UYhfi7ofdu0M9Y=",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v8.0.3/contacts-v8.0.3.tar.gz",
-    "version": "8.0.3",
+    "hash": "sha256-GTIsL5oY6Kb8Ga79VL7WGD51lmxUvE2cHN38anvyf6w=",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v8.0.4/contacts-v8.0.4.tar.gz",
+    "version": "8.0.4",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -230,9 +240,9 @@
     ]
   },
   "context_chat": {
-    "hash": "sha256-TVih3IAogjfUL33HKon0zxR1+0iIA4WoVJk3QY+eJbE=",
-    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v4.5.0/context_chat-v4.5.0.tar.gz",
-    "version": "4.5.0",
+    "hash": "sha256-prNwO7t52yz6VhGVqEifKDcRvdi0qWx1epoz4NuqjWE=",
+    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v5.0.0/context_chat-v5.0.0.tar.gz",
+    "version": "5.0.0",
     "description": "Ask questions to Nextcloud Assistant about the content of your documents.\n\nInstall the given apps for Context Chat to work as desired **in the given order**:\n- [AppAPI from the Apps page](https://apps.nextcloud.com/apps/app_api)\n- [Context Chat Backend (same major and minor version as Context Chat app below) from the External Apps page](https://apps.nextcloud.com/apps/context_chat_backend)\n- [Context Chat (same major and minor version as the backend) from the Apps page](https://apps.nextcloud.com/apps/context_chat)\n- [Assistant from the Apps page](https://apps.nextcloud.com/apps/assistant). The OCS API or the `occ` commands can also be used to interact with this app but it recommended to do that through a Task Processing OCP API consumer like the Assistant app, which is also the officially supported universal UI for all the AI providers.\n- Text2Text Task Processing Provider like [llm2 from the External Apps page](https://apps.nextcloud.com/apps/llm2) or [integration_openai from the Apps page](https://apps.nextcloud.com/apps/integration_openai)\n\nSetup background job workers as described here: https://docs.nextcloud.com/server/latest/admin_manual/ai/overview.html#improve-ai-task-pickup-speed\n\nNote:\nRefer to the [Context Chat Backend's readme](https://github.com/nextcloud/context_chat_backend/?tab=readme-ov-file) and the [AppAPI's documentation](https://cloud-py-api.github.io/app_api/) for help with setup of AppAPI's deploy daemon.",
     "homepage": "https://github.com/nextcloud/context_chat",
     "licenses": [
@@ -250,9 +260,9 @@
     ]
   },
   "cospend": {
-    "hash": "sha256-0Ji9YJaikJS7GMfx43rt4Am0Ov52UdWFWy3npzaqkD0=",
-    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v3.1.5/cospend-3.1.5.tar.gz",
-    "version": "3.1.5",
+    "hash": "sha256-KD2l6qakEgPrnogJcLNZfO+/OUYnVI7Jn8NtWOweWHc=",
+    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v3.1.6/cospend-3.1.6.tar.gz",
+    "version": "3.1.6",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share expenses with a group of people.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. Balances are not an absolute amount of money at members disposal but rather a relative information showing if a member has spent more for the group than the group has spent for her/him, independently of exactly who spent money for whom. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be shared with other Nextcloud users or via public links.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently under developpement!\n\nThe private and public APIs are documented using [the Nextcloud OpenAPI extractor](https://github.com/nextcloud/openapi-extractor/). This documentation can be accessed directly in Nextcloud. All you need is to install Cospend (>= v1.6.0) and use the [the OCS API Viewer app](https://apps.nextcloud.com/apps/ocs_api_viewer) to browse the OpenAPI documentation.\n\n## Features\n\n* ✎ Create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ Check member balances\n* 🗠 Display project statistics\n* ♻ Display settlement plan\n* Move bills from one project to another\n* Move bills to trash before actually deleting them\n* Archive old projects before deleting them\n* 🎇 Automatically create reimbursement bills from settlement plan\n* 🗓 Create recurring bills (day/week/month/year)\n* 📊 Optionally provide custom amount for each member in new bills\n* 🔗 Link personal files to bills (picture of physical receipt for example)\n* 👩 Public links for people outside Nextcloud (can be password protected)\n* 👫 Share projects with Nextcloud users/groups/circles\n* 🖫 Import/export projects as csv (compatible with csv files from IHateMoney and SplitWise)\n* 🔗 Generate link/QRCode to easily add projects in MoneyBuster\n* 🗲 Implement Nextcloud notifications and activity stream\n\nThis app usually support the 2 or 3 last major versions of Nextcloud.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://github.com/julien-nc/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/julien-nc/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/julien-nc/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/julien-nc/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/julien-nc/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/julien-nc/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* It does not make you rich\n\nAny feedback will be appreciated.\n\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/cospend-nc",
     "licenses": [
@@ -260,8 +270,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -319,6 +329,16 @@
       "agpl"
     ]
   },
+  "dokuwiki": {
+    "hash": "sha256-5p290tVEuEK2yxHS0lViC56BWZE17Cm97Fjs3ssmdpM=",
+    "url": "https://github.com/rotdrop/nextcloud-app-dokuwiki/releases/download/v1.1.2/dokuwiki.tar.gz",
+    "version": "1.1.2",
+    "description": "Embed an existing DokuWiki instance into Nextcloud, potentially with SSO. For SSO DokuWiki users and Nextcloud users have to coincide, e.g. by using a common authentication backend like LDAP, or with an appropriate auth plugin on either side of the integration.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "drawio": {
     "hash": "sha256-Zhl1hTHLUD/pA2dlQqQadU6EUbVv+lhbrjqZLyB9mlY=",
     "url": "https://github.com/jgraph/drawio-nextcloud/releases/download/v3.1.1/drawio-v3.1.1.tar.gz",
@@ -345,6 +365,16 @@
     "version": "1.0.19",
     "description": "The eID-Login App allows to use the German eID-card and similar electronic identity documents for secure and privacy-friendly login to Nextcloud. For this purpose, a so-called eID-Client, such as the AusweisApp2 or the Open eCard App and eID-Service are required. In the default configuration a suitable eID-Service is provided without any additional costs.",
     "homepage": "https://eID.services/eidlogin/nextcloud",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "end_to_end_encryption": {
+    "hash": "sha256-NCa5t+ksbHeBhL0YpEjD4m5dj0wAQIkc6YrepAn08TM=",
+    "url": "https://github.com/nextcloud-releases/end_to_end_encryption/releases/download/v1.18.0/end_to_end_encryption-v1.18.0.tar.gz",
+    "version": "1.18.0",
+    "description": "This app provides all the necessary APIs to implement End-to-End encryption on the client side.\nAdditionally it implements Secure FileDrop and makes sure that End-to-End encrypted files are neither accessible via the web interface nor other WebDAV clients.",
+    "homepage": "https://github.com/nextcloud/end_to_end_encryption",
     "licenses": [
       "agpl"
     ]
@@ -379,12 +409,42 @@
       "agpl"
     ]
   },
+  "files_3dmodelviewer": {
+    "hash": "sha256-vYW5KskBko/1fH0rODm5qaxieLPgL5MVz9tFSNLYA7k=",
+    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.16/files_3dmodelviewer.tar.gz",
+    "version": "0.0.16",
+    "description": "# Visualise and explore 3D models\n\n- 3dm | Rhino\n- 3ds | Autodesk 3D Studio\n- 3mf | 3D Manufacturing Format\n- amf | Additive Manufacturing File Format\n- bim | dotbim\n- brep/brp | Boundary Representation\n- dae | Collada\n- fbx | Filmbox\n- fcstd | FreeCAD Standard File Format\n- glb | GL Transmission Format\n- gltf | GL Transmission Format\n- ifc | International Foundation Class\n- iges/igs | Initial Graphics Exchange Specification\n- obj | Wavefront\n- off | Object File Format\n- ply | Polygon File Format\n- step/stp | Standard for Exchange of Product Model Data\n- stl | Stereolithography Standard Tesselation/Triangle Language\n- wrl | Virtual Reality Modeling Language",
+    "homepage": "https://github.com/WARP-LAB/files_3dmodelviewer",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_accesscontrol": {
     "hash": "sha256-UGcoB3zRZxNJ9w8one26n2mLuSB390J+fRavfT5KouE=",
     "url": "https://github.com/nextcloud-releases/files_accesscontrol/releases/download/v3.0.1/files_accesscontrol-v3.0.1.tar.gz",
     "version": "3.0.1",
     "description": "Nextcloud's File Access Control app enables administrators to protect data from unauthorized access or modifications.\n\n## How it works\nThe administrator can create and manage a set of rule groups. Each of the rule groups consists of one or more rules. If all rules of a group hold true, the group matches the request and access is being denied or the upload is blocked. The rules criteria range from IP address, MIME type and request time to group membership, tags, user agent and more.\n\nAn example would be to deny access to MS Excel/XLSX files owned by the \"Human Resources\" group accessed from an IP not on the internal company network or to block uploads of files bigger than 512 mb by students in the \"1st year\" group.\n\nLearn more about File Access Control on [https://nextcloud.com/workflow](https://nextcloud.com/workflow)",
     "homepage": "https://github.com/nextcloud/files_accesscontrol",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_antivirus": {
+    "hash": "sha256-Ix5oQCOPrCkiItEs1MSG3K4t79q+dZIAvrq7K6ZKYrQ=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v6.1.0/files_antivirus-v6.1.0.tar.gz",
+    "version": "6.1.0",
+    "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_archive": {
+    "hash": "sha256-jQKsQjosfvPwOSkPVseYHaQAJ2W1C+Vrz6WUAooRpMM=",
+    "url": "https://github.com/rotdrop/nextcloud-app-files-archive/releases/download/v1.2.8/files_archive.tar.gz",
+    "version": "1.2.8",
+    "description": "Inspect, mount and extract archive files (zip, tar, etc.)",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -425,6 +485,16 @@
     "version": "0.1.5",
     "description": "### Email Viewer integrates the excellent Email to PDF Converter into Nextcloud, enabling you to view .msg and .eml files.\n\n#### Requirements\n\n- Nextcloud 28 or newer\n- Viewer and PDF Viewer for Nextcloud\n- PHP proc_open\n- [Email to PDF Converter](https://github.com/nickrussler/email-to-pdf-converter) (requires OpenJDK and [wkhtmltopdf](https://wkhtmltopdf.org/))\n\n#### Installation\n\n- Download and enable files_emailviewer\n- Store a copy of the Email to PDF Converter on the server, ensuring that Nextcloud has access to it\n- Set the path to Email to PDF Converter via `occ config:app:set --value /opt/emailconverter-3.0.0-all.jar files_emailviewer binary_path`\n- Upload a .msg or .eml file and view it directly in Nextcloud 🙌\n\n#### Outgoing connections\n\n- If the email contains images from external sources, the Email to PDF converter will download the images, requiring external connections\n- The current version does not consider Nextcloud's proxy configuration but should follow the system default",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_fulltextsearch": {
+    "hash": "sha256-1myliRjYK8+wBfQYZYMxdwYQWlA13o6BQogMBEBpVvA=",
+    "url": "https://github.com/nextcloud-releases/files_fulltextsearch/releases/download/32.0.0/files_fulltextsearch-32.0.0.tar.gz",
+    "version": "32.0.0",
+    "description": "Extension to the _Full text search_ app to index your users' files.",
+    "homepage": "https://github.com/nextcloud/files_fulltextsearch",
     "licenses": [
       "agpl"
     ]
@@ -530,11 +600,31 @@
     ]
   },
   "forms": {
-    "hash": "sha256-P2QfOnJ5xbAaIIRNHyd8T4BZipyOAPO7W+hm7Dq+9pE=",
-    "url": "https://github.com/nextcloud-releases/forms/releases/download/v5.2.1/forms-v5.2.1.tar.gz",
-    "version": "5.2.1",
+    "hash": "sha256-gUFrPO3Dxxhx0qvXNML7EeNOtiz0UaC2Xegk78+BZj8=",
+    "url": "https://github.com/nextcloud-releases/forms/releases/download/v5.2.2/forms-v5.2.2.tar.gz",
+    "version": "5.2.2",
     "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🧑‍💻 Connect to your software:** Easily integrate Forms into your service with our full-fledged [REST-API](https://github.com/nextcloud/forms/blob/main/docs/API.md).\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
     "homepage": "https://github.com/nextcloud/forms",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "fulltextsearch": {
+    "hash": "sha256-Irj80xYRBNY+9bWmsqR5WEEMOVbOLW/l3Abrzs14N7Y=",
+    "url": "https://github.com/nextcloud-releases/fulltextsearch/releases/download/32.0.0/fulltextsearch-32.0.0.tar.gz",
+    "version": "32.0.0",
+    "description": "Core App of the full-text search framework for your Nextcloud.",
+    "homepage": "https://github.com/nextcloud/fulltextsearch",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "fulltextsearch_elasticsearch": {
+    "hash": "sha256-qPBOvUFCPAgj545yjK3I1Oz+w3l+GsAqMqPe4T0+ZXI=",
+    "url": "https://github.com/nextcloud-releases/fulltextsearch_elasticsearch/releases/download/32.0.0/fulltextsearch_elasticsearch-32.0.0.tar.gz",
+    "version": "32.0.0",
+    "description": "Extension to the _Full text search_ app to communicate with ElasticSearch.",
+    "homepage": "https://github.com/nextcloud/fulltextsearch_elasticsearch",
     "licenses": [
       "agpl"
     ]
@@ -570,8 +660,8 @@
     ]
   },
   "gpoddersync": {
-    "hash": "sha256-anBa8RiQ4oEM95fp08elIMu3jO0pIelRp35JxK7UflQ=",
-    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.13.1/gpoddersync.tar.gz",
+    "hash": "sha256-xMSo5D3w/qIMxLclSTmBPVBHwNkyTbluqlXWtdbLUYk=",
+    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.13.2/gpoddersync.tar.gz",
     "version": "3.13.1",
     "description": "Expose GPodder API to sync podcast consumer apps like AntennaPod",
     "homepage": "https://github.com/thrillfall/nextcloud-gpodder",
@@ -610,10 +700,10 @@
     ]
   },
   "groupfolders": {
-    "hash": "sha256-v9EMLcD2gVlyBKrDiORK/VGeNvI4aKCXonunRxwqnuQ=",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v20.1.1/groupfolders-v20.1.1.tar.gz",
-    "version": "20.1.1",
-    "description": "Admin configured folders shared with everyone in a team.\n\nFolders can be configured from *Team folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more teams, control their write/sharing permissions and assign a quota for the folder.\nAs of Hub 10/Nextcloud 31, the admin needs to be a part of the team to be able to assign it a Teamfolder.",
+    "hash": "sha256-aGE2bwq5phZHThYxErqV/8wYGAmtVVT1/4Rmo8zcIUY=",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v20.1.2/groupfolders-v20.1.2.tar.gz",
+    "version": "20.1.2",
+    "description": "Admin configured folders shared with everyone in a group.\n\nFolders can be configured from *Group folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more groups, control their write/sharing permissions and assign a quota for the folder.\n\nNote: Encrypting the contents of group folders is currently not supported.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
       "agpl"
@@ -790,9 +880,9 @@
     ]
   },
   "integration_homeassistant": {
-    "hash": "sha256-C083NROJzU9EFMwt4uW9zOFYgwe1GM9RXkjx/ksrpVk=",
-    "url": "https://github.com/poulou0/nextcloud-homeassistant-integration/releases/download/v0.0.6/integration_homeassistant.tar.gz",
-    "version": "0.0.6",
+    "hash": "sha256-HtEIRhBSKXP9G/YTdESf0aKpnEx1JoO69OK+KMmqlAw=",
+    "url": "https://github.com/poulou0/nextcloud-homeassistant-integration/releases/download/v0.0.7/integration_homeassistant.tar.gz",
+    "version": "0.0.7",
     "description": "A jinja2 template and a YAML widget for a home-assistant instance.\n\nVideo examples can be found here:\n* [Jinja2 template widget](https://youtu.be/XE_LRTAfVjA)\n* [YAML widget](https://youtu.be/PjWH53rqYe8)",
     "homepage": "https://github.com/poulou0/nextcloud-homeassistant-integration",
     "licenses": [
@@ -989,6 +1079,16 @@
       "agpl"
     ]
   },
+  "integration_trackmania": {
+    "hash": "sha256-ZrbxrzldA+f9GRKhaD4TD7uXi3v2XI6zp4q1nrh8xb4=",
+    "url": "https://github.com/julien-nc/integration_trackmania/releases/download/v2.0.1/integration_trackmania-2.0.1.tar.gz",
+    "version": "2.0.1",
+    "description": "Show all your PBs in a dynamic table and optionally compare yourself to another player.",
+    "homepage": "https://github.com/julien-nc/integration_trackmania",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "integration_watsonx": {
     "hash": "sha256-MrkLrKRX/U6AMkcksFDGbopLyr4YZL5V9n5idb5g1Qs=",
     "url": "https://github.com/nextcloud-releases/integration_watsonx/releases/download/v1.0.4/integration_watsonx-v1.0.4.tar.gz",
@@ -1060,9 +1160,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-FzCMFDHCjQuicey+6EMRT1gkLeW1LHbXo/08qZPRzV8=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.7.8/journeys.tar.gz",
-    "version": "0.7.8",
+    "hash": "sha256-Gcyz13C1ENYTnreNWNaW+H9HxNzWRk/wgtCa8S9Ch0A=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.7.11/journeys.tar.gz",
+    "version": "0.7.11",
     "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels (requires `ffmpeg` on the server)\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
@@ -1110,9 +1210,9 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-bn4RE6uj8/T7/gD+Ow1rA4BI6RPzw8KXySX7vk3GZec=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v12.0.0/libresign-v12.0.0.tar.gz",
-    "version": "12.0.0",
+    "hash": "sha256-ey6jH+S20HxxDpA3CcizIvn4ddqk2GGnvYpyW+Iaciw=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v12.0.1/libresign-v12.0.1.tar.gz",
+    "version": "12.0.1",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1130,11 +1230,21 @@
     ]
   },
   "mail": {
-    "hash": "sha256-8/J1oQ7aVaroYYy2HtQyDpDw7vTtgkE+Rzzy6ySC2Tg=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.5.7/mail-v5.5.7.tar.gz",
-    "version": "5.5.7",
+    "hash": "sha256-BvgDPCjgc5Hl93ueobErfuREhmjdoQBqOlXYpVJM9uo=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.5.10/mail-v5.5.10.tar.gz",
+    "version": "5.5.10",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "mail_roundcube": {
+    "hash": "sha256-JkWCwkiD9HHOYUGK99HMSbkvS6G/a78aX1fedu7PFfo=",
+    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.2.2/mail_roundcube.tar.gz",
+    "version": "1.2.2",
+    "description": "Integrates an existing Roundcube standalone email-webapp into Nextcloud, with optional SSO.",
+    "homepage": "https://github.com/rotdrop/nextcloud-roundcube/",
     "licenses": [
       "agpl"
     ]
@@ -1180,9 +1290,9 @@
     ]
   },
   "music": {
-    "hash": "sha256-iVti/js0+7iuBkIFvlvKWwRLBSroFJbGTBRQZ5cvxH8=",
-    "url": "https://github.com/owncloud/music/releases/download/v2.4.0/music_2.4.0_for_nextcloud.tar.gz",
-    "version": "2.4.0",
+    "hash": "sha256-dFY3/jlZc0uuE3d26A/kBjZ7FtM1BJdc1Wq8SrlsnME=",
+    "url": "https://github.com/owncloud/music/releases/download/v2.4.1/music_2.4.1_for_nextcloud.tar.gz",
+    "version": "2.4.1",
     "description": "A stand-alone music player app and a \"lite\" player for the Files app\n\n- On modern browsers, supports audio types .mp3, .ogg, .m4a, .m4b, .flac, .wav, and more\n- Playlist support with import from .m3u, .m3u8, .pls, and .wpl files\n- Show lyrics from the file metadata or .lrc files\n- Browse by artists, albums, genres, or folders\n- Gapless play\n- Filter the shown content with the search function\n- Advanced search to freely use and combine dozens of search criteria\n- Play internet radio and podcast channels\n- Setup Last.fm connection to see background information on artists, albums, and songs\n- Control with media control keys on the keyboard or OS\n- The app can handle libraries consisting of thousands of albums and tens of thousands of songs\n- Includes a server backend compatible with the Subsonic and Ampache protocols, allowing playback and browsing of your library on dozens of external apps on Android, iOS, Windows, Linux, etc.\n- Widget for the Nextcloud Dashboard",
     "homepage": "https://github.com/owncloud/music",
     "licenses": [
@@ -1190,9 +1300,9 @@
     ]
   },
   "news": {
-    "hash": "sha256-C4A1kb41DCS3FtConpJ+g9TBEIlaUqW9YC6Ha3bj0Yw=",
-    "url": "https://github.com/nextcloud/news/releases/download/27.0.0/news.tar.gz",
-    "version": "27.0.0",
+    "hash": "sha256-K93swGriEwm1zBq9H7F4P2fHmTanYddFARfQp456bds=",
+    "url": "https://github.com/nextcloud/news/releases/download/27.0.1/news.tar.gz",
+    "version": "27.0.1",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
@@ -1319,6 +1429,16 @@
       "agpl"
     ]
   },
+  "openotp_auth": {
+    "hash": "sha256-RPmlnMXqtgE52SDr+fPotbbTmw98jgXTD3dZzDAvzQg=",
+    "url": "https://github.com/RCDevs-Security-Organization/nextcloud_openotp_auth/releases/download/1.32.0/openotp_auth-1.32.0.tar.gz",
+    "version": "1.32.0",
+    "description": "**RCDevs OpenOTP Application enables two-factor authentication for your users using your personal Cloud.**\n\nIt is versatile, device-independent and based on opened security standards.\n\nOpenOTP provides fine-grained user identity and access management (IAM), one-time passwords authentication technologies (OTP) and Universal Second Factor Authentification (U2F) including among others extensive authentication policies for your AD / LDAP users.\n\nIt is enterprise-ready with strong support for:\n\n* high-availability\n* load-balancing\n* multi-tenancy\n* geolocation\n* delegated administration\n* contextual authentication with IP address and device fingerprint\n* push Login technology with Mobile Phone\n* voice biometrics technology\n* easy installation, update and configuration in RCDevs WebADM\n* ... and much more.",
+    "homepage": "https://github.com/rcdevs/nextcloud_openotp_auth",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "openregister": {
     "hash": "sha256-186ivQBIzHUTfxLXL9B5eQ28ajBC3WN6oyHHqhceHbs=",
     "url": "https://github.com/ConductionNL/openregister/releases/download/v0.2.6/openregister-0.2.6.tar.gz",
@@ -1354,6 +1474,16 @@
     "url": "https://git.mdns.eu/api/v4/projects/58/packages/generic/passwords-handbook/2025.10.0/passwords-handbook.tar.gz",
     "version": "2025.10.20",
     "description": "With this app you can host the in app user handbook for the Passwords app for Nextcloud on your own Nextcloud instance instead of using the sources on Github or a custom server.\nThis improves user privacy and enables using the handbook in networks where Github may not be available.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "pdf_downloader": {
+    "hash": "sha256-pNiBYj7yBbdDddvDP9aAPi0wIB+dmIphrZgAf0C00Kw=",
+    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.2.9/pdf_downloader.tar.gz",
+    "version": "1.2.9",
+    "description": "Recursively convert entire directory trees to PDF and provide the resulting document as download",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1480,9 +1610,9 @@
     ]
   },
   "richdocuments": {
-    "hash": "sha256-7cLCcb18m3Of0BovTucR37zckdon6LyjiXg5OwKmWHU=",
-    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v9.0.0/richdocuments-v9.0.0.tar.gz",
-    "version": "9.0.0",
+    "hash": "sha256-tODtwJNNCxdHvAOfi1tXFwFcfeQL5RGBad+ZcXqBNiU=",
+    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v9.0.1/richdocuments-v9.0.1.tar.gz",
+    "version": "9.0.1",
     "description": "This application can connect to a Collabora Online (or other) server (WOPI-like Client). Nextcloud is the WOPI Host. Please read the documentation to learn more about that.\n\nYou can also edit your documents off-line with the Collabora Office app from the **[Android](https://play.google.com/store/apps/details?id=com.collabora.libreoffice)** and **[iOS](https://apps.apple.com/us/app/collabora-office/id1440482071)** store.",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1560,9 +1690,9 @@
     ]
   },
   "sendentsynchroniser": {
-    "hash": "sha256-u2kZC0KU1kqtwzmyrtwWH8hV5hm0nFVFeduN7H7atK4=",
-    "url": "https://download.sendent.com/sendentsynchroniser/1.1.0/sendentsynchroniser.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-xcT0+i2DtZACzcpFXPmVQ2uW5yG2M6z98bOGqAqErXY=",
+    "url": "https://download.sendent.com/sendentsynchroniser/1.1.1/sendentsynchroniser.tar.gz",
+    "version": "1.1.1",
     "description": "Say goodbye to manual updates! The Sendent Sync app, designed for the Nextcloud Exchange Connector, enables bi-directional syncing of agendas and contacts between your Microsoft Exchange and Nextcloud Hub. Focus on what truly matters – your work – while your data flows effortlessly.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -1570,9 +1700,9 @@
     ]
   },
   "sentry": {
-    "hash": "sha256-BOxj0mXo7/Z+kzabiF7qHl6QUXpgD6qmM/YEzvYz+Mw=",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.16.0/sentry-v8.16.0.tar.gz",
-    "version": "8.16.0",
+    "hash": "sha256-PhsFpPwEXUyrtdjGzdUfE+bSYwtNquazFpM8IVnkuyA=",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.16.2/sentry-v8.16.2.tar.gz",
+    "version": "8.16.2",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -1750,9 +1880,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-Dpxj08dFPFNS03AzxFGHQqJDuW2SecEvVWcXo5DdkZc=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.102/softwarecatalog-0.1.102.tar.gz",
-    "version": "0.1.102",
+    "hash": "sha256-gOitrZ3SNCpTflxSHVm6A2EdWDuG+Oizmo52l/pNOaA=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.104/softwarecatalog-0.1.104.tar.gz",
+    "version": "0.1.104",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
@@ -1765,6 +1895,16 @@
     "version": "22.0.0",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat** Nextcloud Talk comes with a simple text chat, allowing you to share or upload files from your Nextcloud Files app or local device and mention other participants.\n* 👥 **Private, group, public and password protected calls!** Invite someone, a whole group or send a public link to invite to a call.\n* 🌐 **Federated chats** Chat with other Nextcloud users on their servers\n* 💻 **Screen sharing!** Share your screen with the participants of your call.\n* 🚀 **Integration with other Nextcloud apps** like Files, Calendar, User status, Dashboard, Flow, Maps, Smart picker, Contacts, Deck, and many more.\n* 🌉 **Sync with other chat solutions** With [Matterbridge](https://github.com/42wim/matterbridge/) being integrated in Talk, you can easily sync a lot of other chat solutions to Nextcloud Talk and vice-versa.",
     "homepage": "https://github.com/nextcloud/spreed",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "stepupauth": {
+    "hash": "sha256-EF4uJeXDzu9ViAMvrMnXkeyjOywe7Xb7oS7eElZ4MFk=",
+    "url": "https://github.com/SUNET/nextcloud-stepupauth/releases/download/v0.2.3/stepupauth-0.2.3.tar.gz",
+    "version": "0.2.3",
+    "description": "The Step Auth App allows SSO accounts to validate a second factor.",
+    "homepage": "https://github.com/SUNET/nextcloud-stepupauth",
     "licenses": [
       "agpl"
     ]
@@ -1869,6 +2009,16 @@
       "agpl"
     ]
   },
+  "timetracker": {
+    "hash": "sha256-oV4+5fGqEBUqvW0fw1WXFOPCfZEMfPETu1/sI9id+1w=",
+    "url": "https://mtier.org/timetracker/timetracker-0.0.86.tar.gz",
+    "version": "0.0.86",
+    "description": "Track your time spent with different tasks each day using this time tracker app! Features include:\n\n# Adding entries\nWith the integrated timer, you only need to press start and stop! Times will be stored automatically, with 1-second-precision. Forgot to press start? Just use the manual editor, to add entries from the past. Or edit existing ones in case you need to change something!\n\n# Projects, Clients and Tags\nAssign tasks to projects and clients! This allows you to display aggregated durations for each project or client, or filter for tasks by projects or clients. You need some more categorization? That's what tags are made for! Create tags to categorize tasks independently from projects or clients.\n\n# Lost track of your work time?\nNo problem! Just use the Dashboard view to display a nice donut / pie chart of your tasks! Or filter for tasks in the Reports or Timeline view to display total or aggregated values.\n\nThis app is still under development, so stay tuned for updates and additional features! If you have any suggestions, bug reports or feature requests, feel free to head over to our [GitHub project page](https://github.com/mtierltd/timetracker) and search through the existing issues, maybe your topic is already under discussion! And if it's not, feel free to file a new issue for it.\n\nAnd for now, start making your time tracking easier by using this app!",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "transfer_quota_monitor": {
     "hash": "sha256-BZCipFGd3eT1K+w/azbM+TCyjgp0bebn/L+GS7FD8x0=",
     "url": "https://github.com/Bruce-Matrix/transfer_quota_monitor/releases/download/v1.0.6/transfer_quota_monitor.tar.gz",
@@ -1910,9 +2060,9 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-FAEiEWWDPVAxneDPGmcLguo4G8zMgH7T4w90+ZdgVkI=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.1/uniteos_notifier.tar.gz",
-    "version": "1.0.0",
+    "hash": "sha256-2l9rUcDRT7ym0nPsyLB8k3oB5Wm1AV5Qnz2zairgl4Y=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "version": "1.0.2",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
     "licenses": [
@@ -1960,9 +2110,9 @@
     ]
   },
   "user_oidc": {
-    "hash": "sha256-F92W+jiK8OJ7o/Q4tVsbAfxOSH3uhxkvjomm1ZkTZXM=",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v8.0.0/user_oidc-v8.0.0.tar.gz",
-    "version": "8.0.0",
+    "hash": "sha256-e4RnB1CQkQRv4Nl/9oHg0XBhuhrSzqGGsnXSsd0HwbY=",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v8.1.0/user_oidc-v8.1.0.tar.gz",
+    "version": "8.1.0",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
